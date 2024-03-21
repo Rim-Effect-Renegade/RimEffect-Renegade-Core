@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<StuffedFloors.FloorTypeDef ParentName="StuffedFloorsMetalBasicBase">
+		<defName>RE_ColonialFloorTileStuffed</defName>
+		<label>steel colonial floor</label>
+		<description>Steel tiles, for that spaceship look. They are pretty, and the smooth tile surface gets a bonus to cleanliness.</description>
+		<texturePath>Terrain/Surfaces/ColonialFloorTile</texturePath>
+		<obsoletes>
+			<li>RE_ColonialFloorTileSteel</li>
+			<li>RE_ColonialFloorTileSilver</li>
+			<li>RE_ColonialFloorTileGold</li>
+		</obsoletes>
+		<researchPrerequisites>
+			<li>RE_BasicPrefabrication</li>
+		</researchPrerequisites>
+	</StuffedFloors.FloorTypeDef>
+
+	<StuffedFloors.FloorTypeDef ParentName="StuffedFloorsMetalBasicBase">
+		<defName>RE_ColonialPavementTileStuffed</defName>
+		<label>steel colonial floor</label>
+		<description>Steel tiles. Cheap, but neutral in terms of looks and fast to build.</description>
+		<texturePath>Terrain/Surfaces/ColonialPavementTile</texturePath>
+		<obsoletes>
+			<li>RE_ColonialPavementTileSteel</li>
+			<li>RE_ColonialPavementTileSilver</li>
+			<li>RE_ColonialPavementTileGold</li>
+		</obsoletes>
+		<researchPrerequisites>
+			<li>RE_BasicPrefabrication</li>
+		</researchPrerequisites>
+	</StuffedFloors.FloorTypeDef>
+
+</Defs>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<ThingDef ParentName="RimEffectBaseMech">
+		<defName>RE_Mechanoids_LOKI</defName>
+		<label>LOKI mech</label>
+		<description>The Hahne-Kedar-manufactured LOKI Mech is a bipedal humanoid security robot designed for security detail and guard duty in locations where manpower is an issue, or where the use of organics for "around the clock" shifts is unfeasible. Slow and simple-minded, these droids are expendable but fairly durable.</description>
+		<statBases>
+			<MoveSpeed>1.9</MoveSpeed>
+			<ArmorRating_Blunt>0.32</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.32</ArmorRating_Sharp>
+			<PsychicSensitivity>0.25</PsychicSensitivity>
+		</statBases>
+		<tools>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>2</power>
+				<cooldownTime>2.6</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+			</li>
+		</tools>
+		<race>
+			<body>Lancer</body>
+			<baseBodySize>1</baseBodySize>
+			<baseHealthScale>4</baseHealthScale>
+			<lifeStageAges>
+				<li>
+					<def>MechanoidFullyFormed</def>
+					<minAge>0</minAge>
+					<soundWounded>RE_Pawn_Mech_LOKI_Wounded</soundWounded>
+					<soundDeath>RE_Pawn_Mech_LOKI_Death</soundDeath>
+					<soundCall>RE_Pawn_Mech_LOKI_Call</soundCall>
+				</li>
+			</lifeStageAges>
+			<soundCallIntervalRange>3000~8000</soundCallIntervalRange>
+			<soundMeleeHitPawn>Pawn_Melee_MechanoidBash_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_MechanoidBash_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_MechanoidBash_Miss</soundMeleeMiss>
+		</race>
+		<butcherProducts>
+			<RE_PrefabComponent>6</RE_PrefabComponent>
+			<ComponentSpacer>4</ComponentSpacer>
+			<Plasteel>40</Plasteel>
+		</butcherProducts>
+		<comps>
+			<li Class="Asimov.CompProperties_Automaton">
+				<canUseRanged>true</canUseRanged>
+				<canUseMelee>true</canUseMelee>
+				<corpseEdible>false</corpseEdible>
+				<corpseRots>false</corpseRots>
+				<affectedByEMP>true</affectedByEMP>
+				<immuneToDisease>true</immuneToDisease>
+				<huntTarget>true</huntTarget>
+				<clearPassions>true</clearPassions>
+				<flattenSkills>true</flattenSkills>
+				<skillGainMulti>0</skillGainMulti>
+				<skillLossMulti>0</skillLossMulti>
+				<defaultSkillLevel>6</defaultSkillLevel>
+				<enableAllWorkTypes>false</enableAllWorkTypes>
+				<enabledWorkTypes>
+					<li>Mining</li>
+					<li>Hauling</li>
+					<li>Cleaning</li>
+				</enabledWorkTypes>
+				<skillSettings>
+					<li>
+						<skill>Shooting</skill>
+						<level>10</level>
+					</li>
+					<li>
+						<skill>Melee</skill>
+						<level>10</level>
+					</li>
+				</skillSettings>
+			</li>
+			<li Class="Asimov.CompProperties_RecolourablePawn">
+				<channelOne>true</channelOne>
+				<channelTwo>false</channelTwo>
+				<skinColorPairs>
+					<li>
+						<colorOne>(255, 255, 255)</colorOne>
+						<colorTwo>(255, 255, 255)</colorTwo>
+						<weight>100</weight>
+					</li>
+				</skinColorPairs>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<PawnKindDef ParentName="AsimovAutomatonKindBase">
+		<defName>RE_Mechanoids_LOKI</defName>
+		<label>LOKI mech</label>
+		<race>RE_Mechanoids_LOKI</race>
+		<combatPower>99999</combatPower>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/LOKICombatmech/LOKICombatMech</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>1.8</drawSize>
+					<shadowData>
+						<volume>(0.6, 0.8, 0.6)</volume>
+					</shadowData>
+				</bodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+
+	<Asimov.AutomatonRecipeDef ParentName="AsimovAutomatonRecipeBase">
+		<defName>RE_MakeLOKIMech</defName>
+		<label>make loki mech</label>
+		<description>Make a loki mech.</description>
+		<jobString>Making loki mech.</jobString>
+		<workAmount>15000</workAmount>
+		<costList>
+			<Steel>45</Steel>
+			<Plasteel>40</Plasteel>
+			<RE_PrefabComponent>8</RE_PrefabComponent>
+			<ComponentSpacer>5</ComponentSpacer>
+		</costList>
+		<researchPrerequisite>RE_ColonyDefenseForce</researchPrerequisite>
+		<pawnKind>RE_Mechanoids_LOKI</pawnKind>
+		<recipeIcon>Things/Pawn/LOKICombatmech/LOKICombatMech_south</recipeIcon>
+	</Asimov.AutomatonRecipeDef>
+
+</Defs>

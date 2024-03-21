@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<ThingDef ParentName="RimEffectBaseMech">
+		<defName>RE_Mechanoids_YMIR</defName>
+		<label>YMIR mech</label>
+		<description>The Battle YMIR Mech, or Model 34-A, or more commonly called a Heavy Mech, is a massive killing machine designed for anti-infantry purposes. Clad in bone-white armor with red lights, they are utilized by Alliance military as infantry support. It utilises a powerful shield capable of withstanding heavy fire.</description>
+		<statBases>
+			<MoveSpeed>1.9</MoveSpeed>
+			<ArmorRating_Blunt>0.62</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.74</ArmorRating_Sharp>
+			<PsychicSensitivity>0.25</PsychicSensitivity>
+		</statBases>
+		<tools>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>16</power>
+				<cooldownTime>2.6</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+			</li>
+		</tools>
+		<race>
+			<body>Lancer</body>
+			<baseBodySize>4</baseBodySize>
+			<baseHealthScale>8</baseHealthScale>
+			<lifeStageAges>
+				<li>
+					<def>MechanoidFullyFormed</def>
+					<minAge>0</minAge>
+					<soundWounded>RE_Pawn_Mech_YMIR_Wounded</soundWounded>
+					<soundDeath>RE_Pawn_Mech_YMIR_Death</soundDeath>
+					<soundCall>RE_Pawn_Mech_YMIR_Call</soundCall>
+				</li>
+			</lifeStageAges>
+			<soundCallIntervalRange>3000~8000</soundCallIntervalRange>
+			<soundMeleeHitPawn>Pawn_Melee_MechanoidBash_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_MechanoidBash_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_MechanoidBash_Miss</soundMeleeMiss>
+		</race>
+		<butcherProducts>
+			<RE_PrefabComponent>12</RE_PrefabComponent>
+			<ComponentSpacer>8</ComponentSpacer>
+			<Plasteel>60</Plasteel>
+		</butcherProducts>
+		<comps>
+			<li Class="Asimov.CompProperties_Automaton">
+				<canUseRanged>true</canUseRanged>
+				<canUseMelee>true</canUseMelee>
+				<corpseEdible>false</corpseEdible>
+				<corpseRots>false</corpseRots>
+				<affectedByEMP>true</affectedByEMP>
+				<immuneToDisease>true</immuneToDisease>
+				<huntTarget>true</huntTarget>
+				<clearPassions>true</clearPassions>
+				<flattenSkills>true</flattenSkills>
+				<skillGainMulti>0</skillGainMulti>
+				<skillLossMulti>0</skillLossMulti>
+				<defaultSkillLevel>6</defaultSkillLevel>
+				<enableAllWorkTypes>false</enableAllWorkTypes>
+				<enabledWorkTypes>
+					<li>Mining</li>
+					<li>Hauling</li>
+					<li>Cleaning</li>
+				</enabledWorkTypes>
+				<skillSettings>
+					<li>
+						<skill>Shooting</skill>
+						<level>10</level>
+					</li>
+					<li>
+						<skill>Melee</skill>
+						<level>10</level>
+					</li>
+				</skillSettings>
+			</li>
+			<li Class="Asimov.CompProperties_RecolourablePawn">
+				<channelOne>true</channelOne>
+				<channelTwo>false</channelTwo>
+				<skinColorPairs>
+					<li>
+						<colorOne>(255, 255, 255)</colorOne>
+						<colorTwo>(255, 255, 255)</colorTwo>
+						<weight>100</weight>
+					</li>
+				</skinColorPairs>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<PawnKindDef ParentName="AsimovAutomatonKindBase">
+		<defName>RE_Mechanoids_YMIR</defName>
+		<label>YMIR mech</label>
+		<race>RE_Mechanoids_YMIR</race>
+		<combatPower>99999</combatPower>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/YMIRmech/YMIRMech</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>2.8</drawSize>
+					<shadowData>
+						<volume>(1, 1, 1)</volume>
+					</shadowData>
+				</bodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+
+	<Asimov.AutomatonRecipeDef ParentName="AsimovAutomatonRecipeBase">
+		<defName>RE_MakeYMIRMech</defName>
+		<label>make ymir mech</label>
+		<description>Make a ymir mech.</description>
+		<jobString>Making ymir mech.</jobString>
+		<workAmount>15000</workAmount>
+		<costList>
+			<Steel>145</Steel>
+			<Plasteel>85</Plasteel>
+			<RE_PrefabComponent>16</RE_PrefabComponent>
+			<ComponentSpacer>12</ComponentSpacer>
+		</costList>
+		<researchPrerequisite>RE_YMIRMech</researchPrerequisite>
+		<pawnKind>RE_Mechanoids_YMIR</pawnKind>
+		<recipeIcon>Things/Pawn/YMIRmech/YMIRMech_south</recipeIcon>
+	</Asimov.AutomatonRecipeDef>
+
+</Defs>

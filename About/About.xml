@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Rim-Effect: Core (Biotech Edition)</name>
+	<author>Vanilla Expanded Team and Co.</author>
+	<supportedVersions>
+	    <li>1.5</li>
+	</supportedVersions>
+	<packageId>RimEffect.Core.Biotech</packageId>
+    <modDependencies>
+		<li>
+			<packageId>brrainz.harmony</packageId>
+			<displayName>Harmony</displayName>
+			<downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+			<steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=2009463077</steamWorkshopUrl>
+		</li>
+        <li>
+			<packageId>OskarPotocki.VanillaFactionsExpanded.Core</packageId>
+			<displayName>Vanilla Expanded Framework</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=1854607105</steamWorkshopUrl>
+		</li>
+		<li>
+			<packageId>neronix17.toolbox</packageId>
+			<displayName>Tabula Rasa</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=1660622094</steamWorkshopUrl>
+		</li>
+		<li>
+			<packageId>Neronix17.Asimov</packageId>
+			<displayName>Asimov</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3096481956</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>Ludeon.RimWorld</li>
+		<li>Ludeon.RimWorld.Royalty</li>
+		<li>brrainz.harmony</li>
+        <li>OskarPotocki.VanillaFactionsExpanded.Core</li>
+		<li>neronix17.toolbox</li>
+		<li>Neronix17.Asimov</li>
+	</loadAfter>
+	<description>Rim Effect is a large overhaul mod series, adding the story, races, objects, and conflicts of Mass Effect universe into RimWorld. The Mass Effect elements are not meant to stand out, and as such are blended into the RimWorld style by utilising the same naming conventions and writing styles.
+
+Much like Vanilla Factions Expanded, the Rim Effect mod series comes divided into sub-modules, firstly to allow the players to pick exactly what elements they want in their games, secondly to ease the production and design process.
+
+Rim Effect Core is the primary module for this mod series, upon which all other sub-modules will depend. Core module introduces a brand new ultratech faction - Systems Alliance, with their own planet-side bases, apparel, weapons, backstories and structures. It’s certainly the biggest mod ever made by us, and potentially the biggest mod on the workshop right now, featuring dozens of new structures, multiple new power sources, an in-depth ability system with tech and biotic powers, lots of new weapons, apparel, animals and other unique mechanics.
+
+Two new storytellers are also present in the game: John Paragon and Jane Renegade. Using the storyteller is NOT a requirement to play this mod, but those storytellers offer interesting new approaches to the game itself.
+
+These mods will utilise Vanilla Expanded Framework and all the code within it, as well as Humanoid Alien Races framework, kindly provided by Erdelf. As such, both our Framework and Humanoid Alien Races are required to play with this mod.
+
+CC BY-NC-ND 4.0
+	</description>
+</ModMetaData>
