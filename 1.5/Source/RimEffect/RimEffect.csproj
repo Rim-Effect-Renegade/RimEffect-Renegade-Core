@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D0F7D475-3F29-4B72-9A62-6A679ED4AEA5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RimEffect</RootNamespace>
+    <AssemblyName>RimEffect</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <LangVersion>Latest</LangVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>false</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>false</DebugSymbols>
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\Assemblies\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="0Harmony, Version=2.3.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\Lib.Harmony.2.3.3\lib\net48\0Harmony.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Assembly-CSharp-firstpass">
+      <HintPath>..\..\..\..\..\..\..\SteamLibrary\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\Assembly-CSharp-firstpass.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Assembly-CSharp_public_1.5">
+      <HintPath>..\..\..\..\..\..\..\SteamLibrary\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\Assembly-CSharp_public_1.5.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+    <Reference Include="TabulaRasa">
+      <HintPath>..\..\..\..\..\_Libraries\Tabula Rasa\1.5\Assemblies\TabulaRasa.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>..\..\..\..\..\..\..\SteamLibrary\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\UnityEngine.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>..\..\..\..\..\..\..\SteamLibrary\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>..\..\..\..\..\..\..\SteamLibrary\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\UnityEngine.IMGUIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.InputLegacyModule">
+      <HintPath>..\..\..\..\..\..\..\SteamLibrary\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\UnityEngine.InputLegacyModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.InputModule">
+      <HintPath>..\..\..\..\..\..\..\SteamLibrary\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\UnityEngine.InputModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreModule">
+      <HintPath>..\..\..\..\..\..\..\SteamLibrary\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\UnityEngine.TextCoreModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>..\..\..\..\..\..\..\SteamLibrary\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\UnityEngine.TextRenderingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="VFECore">
+      <HintPath>..\..\..\..\..\..\..\SteamLibrary\steamapps\workshop\content\294100\2023507013\1.5\Assemblies\VFECore.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Abilities\Abilities\Ability_Annihilation.cs" />
+    <Compile Include="Abilities\Abilities\Ability_Charge.cs" />
+    <Compile Include="Abilities\Abilities\Ability_Dominate.cs" />
+    <Compile Include="Abilities\Abilities\Ability_Flare.cs" />
+    <Compile Include="Abilities\Abilities\Ability_Pull.cs" />
+    <Compile Include="Abilities\Abilities\Ability_Sabotage.cs" />
+    <Compile Include="Abilities\Abilities\Ability_Singularity.cs" />
+    <Compile Include="Abilities\HediffComp_NaturalBiotic.cs" />
+    <Compile Include="Abilities\Hediff_BioticAmp.cs" />
+    <Compile Include="Abilities\Hediff_OmniTool.cs" />
+    <Compile Include="Apparels\AmmoBelt.cs" />
+    <Compile Include="Apparels\ShieldBeltApparel.cs" />
+    <Compile Include="Buildings\Building_GalaxyMap.cs" />
+    <Compile Include="Buildings\Building_VIInterface.cs" />
+    <Compile Include="Comps\CompPlantHarmRadiusIfBroken.cs" />
+    <Compile Include="Comps\CompPowerFusionCell.cs" />
+    <Compile Include="Comps\CompPowerPlantNuclear.cs" />
+    <Compile Include="Comps\CompPowerPlantSolarCollectors.cs" />
+    <Compile Include="Comps\CompPowerPlantZero.cs" />
+    <Compile Include="Comps\CompProperties\CompProperties_PlantHarmRadiusIfBroken.cs" />
+    <Compile Include="Comps\CompProperties\CompProperties_VariableHeatPusher.cs" />
+    <Compile Include="Comps\CompSpawnOnInteract.cs" />
+    <Compile Include="Comps\CompUseEffect_MediGel.cs" />
+    <Compile Include="Comps\CompVariableHeatPusher.cs" />
+    <Compile Include="Damages\DamageWorker_BombNoShake.cs" />
+    <Compile Include="GenSteps\GenStep_Beacon.cs" />
+    <Compile Include="GenSteps\GenStep_RE_DeadSoldier.cs" />
+    <Compile Include="GenSteps\GenStep_RE_HostagesSite.cs" />
+    <Compile Include="GenSteps\GenStep_RE_KodiakShuttleCrash.cs" />
+    <Compile Include="GenSteps\GenStep_RE_PirateOrMech.cs" />
+    <Compile Include="GenSteps\GenStep_RE_WoundedSoldier.cs" />
+    <Compile Include="GenSteps\GenStep_RogueSite.cs" />
+    <Compile Include="Harmony\Patch_HediffSet_AddDirect.cs" />
+    <Compile Include="Harmony\Patch_FloatMenuMakerMap_AddHumanlikeOrders.cs" />
+    <Compile Include="Harmony\Patch_TickManager_DoSingleTick.cs" />
+    <Compile Include="Harmony\Patch_EquipmentUtility_CanEquip.cs" />
+    <Compile Include="Harmony\Patch_Pawn_InteractionsTrackeR_CanInteractNowWith.cs" />
+    <Compile Include="Harmony\Patch_PawnRenderer_DrawEquipment.cs" />
+    <Compile Include="Harmony\Patch_JobGiver_Wander_TryGiveJob.cs" />
+    <Compile Include="Harmony\Patch_Pawn_DrawTracker_Notify_DamageApplied.cs" />
+    <Compile Include="Harmony\Patch_MechClusterGenerator_MechKindSuitableForCluster.cs" />
+    <Compile Include="Harmony\Patch_ResearchProject_CanBeResearchedAt.cs" />
+    <Compile Include="Harmony\Patch_JobDriver_TendPatient_MakeNewToils.cs" />
+    <Compile Include="Harmony\Patch_HealthAIUtility_FindBestMedicine.cs" />
+    <Compile Include="Hediffs\Hediff_Spectre.cs" />
+    <Compile Include="Hediffs\Hediff_TargetingVI.cs" />
+    <Compile Include="Incidents\IncidentWorker_LocalBattlefield.cs" />
+    <Compile Include="Incidents\IncidentWorker_PyjakCrate.cs" />
+    <Compile Include="Incidents\IncidentWorker_SpectreJoin.cs" />
+    <Compile Include="Interactions\InteractionWorker_PyjakNuzzle.cs" />
+    <Compile Include="Jobs\JobDriver_FreeHostages.cs" />
+    <Compile Include="Jobs\JobDriver_LeaveMap.cs" />
+    <Compile Include="Jobs\JobDriver_OpenSpawnOnInteract.cs" />
+    <Compile Include="Jobs\JobDriver_PyjakNuzzle.cs" />
+    <Compile Include="Jobs\JobDriver_UseVIITerminal.cs" />
+    <Compile Include="Jobs\JobGiver_AttackOtherHostiles.cs" />
+    <Compile Include="Jobs\JobGiver_HaulItemsToRandomPlaces.cs" />
+    <Compile Include="Jobs\JobGiver_PyjakNuzzle.cs" />
+    <Compile Include="Jobs\JoyGiver_UseVITerminal.cs" />
+    <Compile Include="Jobs\LordJob_DefendPointThenLeave.cs" />
+    <Compile Include="Jobs\LordToil_DefendPointThenLeave.cs" />
+    <Compile Include="Misc\Textures.cs" />
+    <Compile Include="QuestNodes\QuestNode_GeneratePawns.cs" />
+    <Compile Include="QuestNodes\QuestNode_GetPawn.cs" />
+    <Compile Include="QuestNodes\QuestNode_GetRandomPawnKinds.cs" />
+    <Compile Include="QuestNodes\QuestNode_GetRoomsToBuild.cs" />
+    <Compile Include="QuestNodes\QuestNode_NewPawnsArrive.cs" />
+    <Compile Include="QuestParts\QuestPart_NewPawnsArrive.cs" />
+    <Compile Include="QuestParts\QuestPart_RoomRequirement.cs" />
+    <Compile Include="RE_DefOf.cs" />
+    <Compile Include="Sites\SitePartWorker_Generic.cs" />
+    <Compile Include="Sites\SitePartWorker_PBeacon.cs" />
+    <Compile Include="Sites\SitePartWorker_RogueSite.cs" />
+    <Compile Include="Stats\StatPart_ModifyMarketValue.cs" />
+    <Compile Include="Utilities\MediGelUtility.cs" />
+    <Compile Include="Harmony\Patch_TendUtility_DoTend.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RimEffectMod.cs" />
+    <Compile Include="RimEffectSettings.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
