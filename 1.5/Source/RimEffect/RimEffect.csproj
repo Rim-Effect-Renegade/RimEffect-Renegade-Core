@@ -128,12 +128,12 @@
     <Compile Include="Harmony\Patch_TickManager_DoSingleTick.cs" />
     <Compile Include="Harmony\Patch_EquipmentUtility_CanEquip.cs" />
     <Compile Include="Harmony\Patch_Pawn_InteractionsTrackeR_CanInteractNowWith.cs" />
-    <Compile Include="Harmony\Patch_PawnRenderer_DrawEquipment.cs" />
+    <Compile Include="Harmony\Patch_PawnRenderUtility_DrawEquipmentAndApparelExtras.cs" />
     <Compile Include="Harmony\Patch_JobGiver_Wander_TryGiveJob.cs" />
     <Compile Include="Harmony\Patch_Pawn_DrawTracker_Notify_DamageApplied.cs" />
     <Compile Include="Harmony\Patch_MechClusterGenerator_MechKindSuitableForCluster.cs" />
     <Compile Include="Harmony\Patch_ResearchProject_CanBeResearchedAt.cs" />
-    <Compile Include="Harmony\Patch_JobDriver_TendPatient_MakeNewToils.cs" />
+    <None Include="Harmony\Patch_JobDriver_TendPatient_MakeNewToils.cs" />
     <Compile Include="Harmony\Patch_HealthAIUtility_FindBestMedicine.cs" />
     <Compile Include="Hediffs\Hediff_Spectre.cs" />
     <Compile Include="Hediffs\Hediff_TargetingVI.cs" />

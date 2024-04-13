@@ -32,7 +32,7 @@ namespace RimEffect
             Version version = Assembly.GetExecutingAssembly().GetName().Version;
             CurrentVersion = $"{version.Major}.{version.Minor}.{version.Build}";
 
-            Log.Message($":: Rim-Effect Reborn: Core - {CurrentVersion} ::".Colorize(Color.cyan));
+            Log.Message($":: Rim-Effect Reborn: Core :: {CurrentVersion} ::".Colorize(Color.cyan));
 
             if (Prefs.DevMode)
             {

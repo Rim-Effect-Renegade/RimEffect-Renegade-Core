@@ -117,7 +117,7 @@
 			<li>RE_AmmoBelts</li>
 		</thingSetMakerTags>
 		<comps>
-			<li Class="CompProperties_Reloadable">
+			<li Class="CompProperties_ApparelReloadable">
 				<maxCharges>100</maxCharges>
 				<destroyOnEmpty>true</destroyOnEmpty>
 				<chargeNoun>charge</chargeNoun>
@@ -201,7 +201,7 @@
 			<li>RE_AmmoBelts</li>
 		</thingSetMakerTags>
 		<comps>
-			<li Class="CompProperties_Reloadable">
+			<li Class="CompProperties_ApparelReloadable">
 				<maxCharges>100</maxCharges>
 				<destroyOnEmpty>true</destroyOnEmpty>
 				<chargeNoun>charge</chargeNoun>
@@ -288,7 +288,7 @@
 			<li>RE_AmmoBelts</li>
 		</thingSetMakerTags>
 		<comps>
-			<li Class="CompProperties_Reloadable">
+			<li Class="CompProperties_ApparelReloadable">
 				<maxCharges>100</maxCharges>
 				<destroyOnEmpty>true</destroyOnEmpty>
 				<chargeNoun>charge</chargeNoun>
@@ -372,7 +372,7 @@
 			<li>RE_AmmoBelts</li>
 		</thingSetMakerTags>
 		<comps>
-			<li Class="CompProperties_Reloadable">
+			<li Class="CompProperties_ApparelReloadable">
 				<maxCharges>100</maxCharges>
 				<destroyOnEmpty>true</destroyOnEmpty>
 				<chargeNoun>charge</chargeNoun>
@@ -456,7 +456,7 @@
 			<li>RE_AmmoBelts</li>
 		</thingSetMakerTags>
 		<comps>
-			<li Class="CompProperties_Reloadable">
+			<li Class="CompProperties_ApparelReloadable">
 				<maxCharges>100</maxCharges>
 				<destroyOnEmpty>true</destroyOnEmpty>
 				<chargeNoun>charge</chargeNoun>
@@ -540,7 +540,7 @@
 			<li>RE_AmmoBelts</li>
 		</thingSetMakerTags>
 		<comps>
-			<li Class="CompProperties_Reloadable">
+			<li Class="CompProperties_ApparelReloadable">
 				<maxCharges>100</maxCharges>
 				<destroyOnEmpty>true</destroyOnEmpty>
 				<chargeNoun>charge</chargeNoun>

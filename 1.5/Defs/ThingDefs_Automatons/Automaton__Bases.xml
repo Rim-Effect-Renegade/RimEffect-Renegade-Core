@@ -12,6 +12,14 @@
 			<MeatAmount>0</MeatAmount>
 			<ArmorRating_Heat>2.00</ArmorRating_Heat>
 		</statBases>
+		<comps>
+			<li Class="CompProperties_Stunnable">
+				<affectedDamageDefs>
+					<li>Stun</li>
+					<li>EMP</li>
+				</affectedDamageDefs>
+			</li>
+		</comps>
 	</ThingDef>
 
 </Defs>

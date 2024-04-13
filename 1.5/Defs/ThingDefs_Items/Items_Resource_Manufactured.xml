@@ -36,7 +36,7 @@
 				<soundOnUsed>MechSerumUsed</soundOnUsed>
 			</li>
 			<li Class="CompProperties_UseEffect">
-				<compClass>RECompMediGel.CompUseEffect_MediGel</compClass>
+				<compClass>RimEffect.CompUseEffect_MediGel</compClass>
 			</li>
 			<li Class="CompProperties_UseEffectDestroySelf" />
 		</comps>
