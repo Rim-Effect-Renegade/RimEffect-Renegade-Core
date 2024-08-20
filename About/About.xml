@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<name>Rim-Effect Reborn: Core</name>
+	<name>Rim-Effect Renegade: Core</name>
 	<author>Vanilla Expanded Team and Co.</author>
 	<supportedVersions>
 	    <li>1.5</li>
 	</supportedVersions>
-	<packageId>RimEffectReborn.Core</packageId>
+	<packageId>RimEffectRenegade.Core</packageId>
 	<modIconPath IgnoreIfNoMatchingField="True">RimEffect/ModIcon</modIconPath>
     <modDependencies>
 		<li>
