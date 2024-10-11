@@ -542,57 +542,30 @@
 		</modExtensions>
 	</ThingDef>
 
-	<ThingDef ParentName="FurnitureWithQualityBase">
+	<ThingDef ParentName="StorageShelfBase">
 		<defName>RE_PrefabShelf</defName>
 		<label>prefab shelf</label>
 		<description>A shelf to keep items from deteriorating.\n\nPrefabricated equipment is vital for getting a new settlement up and running quickly and safely out on the dangerous frontier.</description>
-		<thingClass>Building_Storage</thingClass>
+		<techLevel>Ultra</techLevel>
 		<graphicData>
 			<texPath>Things/Building/Furniture/PrefabShelf/PrefabShelf</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(3,2)</drawSize>
 		</graphicData>
-		<altitudeLayer>Building</altitudeLayer>
-		<passability>PassThroughOnly</passability>
-		<fillPercent>0.4</fillPercent>
-		<castEdgeShadows>true</castEdgeShadows>
-		<pathCost>50</pathCost>
 		<costList>
-			<Steel>15</Steel>
-			<Plasteel>5</Plasteel>
+			<Steel>5</Steel>
 			<RE_PrefabComponent>1</RE_PrefabComponent>
 		</costList>
 		<statBases>
-			<MaxHitPoints>60</MaxHitPoints>
+			<MaxHitPoints>150</MaxHitPoints>
 			<Mass>8</Mass>
-			<WorkToBuild>400</WorkToBuild>
-			<Flammability>1.0</Flammability>
+			<WorkToBuild>250</WorkToBuild>
 			<Beauty>0.5</Beauty>
 		</statBases>
 		<size>(2,1)</size>
-		<defaultPlacingRot>South</defaultPlacingRot>
-		<building>
-			<preventDeteriorationOnTop>true</preventDeteriorationOnTop>
-			<ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
-			<defaultStorageSettings>
-				<priority>Important</priority>
-				<filter>
-					<categories>
-						<li>Weapons</li>
-					</categories>
-				</filter>
-			</defaultStorageSettings>
-		</building>
-		<inspectorTabs>
-			<li>ITab_Storage</li>
-		</inspectorTabs>
-		<staticSunShadowHeight>0.5</staticSunShadowHeight>
-		<surfaceType>Item</surfaceType>
-		<canOverlapZones>false</canOverlapZones>
 		<researchPrerequisites>
 			<li>RE_BasicPrefabrication</li>
 		</researchPrerequisites>
-		<techLevel>Ultra</techLevel>
 		<designationCategory>RE_ArchitectPrefab</designationCategory>
 		<modExtensions>
 			<li Class="TabulaRasa.DefModExt_SubCategoryBuilding">
