@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
+
 	<VFECore.Abilities.AbilityDef>
 		<defName>RE_Tech_CombatDrone</defName>
 		<label>combat drone</label>
@@ -309,8 +310,9 @@
 			<li Class="HediffCompProperties_Disappears">
 				<disappearsAfterTicks>1800~1800</disappearsAfterTicks>
 			</li>
-			<li Class="HediffCompProperties">
-				<compClass>HediffComp_Invisibility</compClass>
+			<li Class="HediffCompProperties_DisappearsOnDeath" />
+			<li Class="HediffCompProperties_Invisibility">
+				<visibleToPlayer>true</visibleToPlayer>
 			</li>
 		</comps>
 	</HediffDef>
