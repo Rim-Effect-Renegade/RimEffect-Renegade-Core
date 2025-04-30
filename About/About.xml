@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
 	<name>Rim-Effect Renegade: Core</name>
-	<author>Vanilla Expanded Team and Co.</author>
+	<author>Team Rim-Effect</author>
 	<supportedVersions>
 	    <li>1.5</li>
 	</supportedVersions>
@@ -46,7 +46,7 @@ Rim Effect Core is the primary module for this mod series, upon which all other 
 
 Two new storytellers are also present in the game: John Paragon and Jane Renegade. Using the storyteller is NOT a requirement to play this mod, but those storytellers offer interesting new approaches to the game itself.
 
-These mods will utilise Vanilla Expanded Framework and all the code within it, as well as Humanoid Alien Races framework, kindly provided by Erdelf. As such, both our Framework and Humanoid Alien Races are required to play with this mod.
+These mods will utilise Vanilla Expanded Framework, Tabula Rasa, and Asimov. As such, they are all required to use this fork of the mod.
 
 CC BY-NC-ND 4.0
 	</description>
