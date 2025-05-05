@@ -21,10 +21,10 @@
 				<factionDef>RE_AlliancePlayerColony</factionDef>
 			</playerFaction>
 			<parts>
-				<li Class="RimEffect.ScenPart_StartRandomIncidentOfCategory">
+				<!-- <li Class="RimEffect.ScenPart_StartRandomIncidentOfCategory">
 					<def>RE_StartRandomIncidentOfCategory</def>
 					<incidentCategory>ThreatBig</incidentCategory>
-				</li>
+				</li> -->
 				<li Class="ScenPart_StartingThing_Defined">
 					<def>StartingThing_Defined</def>
 					<thingDef>Steel</thingDef>
