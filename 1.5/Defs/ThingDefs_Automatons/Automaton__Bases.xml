@@ -14,6 +14,7 @@
 		</statBases>
 		<race>
 			<renderTree>Asimov_AutomatonAnimal</renderTree>
+			<useMeatFrom>Human</useMeatFrom>
 		</race>
 		<comps>
 			<li Class="CompProperties_Stunnable">

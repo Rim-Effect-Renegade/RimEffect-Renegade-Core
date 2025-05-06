@@ -101,6 +101,9 @@
 			<Crafting>6</Crafting>
 		</skillRequirements>
 		<workSkill>Crafting</workSkill>
+		<researchPrerequisites>
+			<li>RE_ColonyDefenseForce</li>
+		</researchPrerequisites>
 	</RecipeDef>
 
 	<ThingDef>
@@ -203,6 +206,9 @@
 			<Crafting>8</Crafting>
 		</skillRequirements>
 		<workSkill>Crafting</workSkill>
+		<researchPrerequisites>
+			<li>RE_ColonyDefenseForce</li>
+		</researchPrerequisites>
 	</RecipeDef>
 
 	<ThingDef>
@@ -305,6 +311,9 @@
 			<Crafting>10</Crafting>
 		</skillRequirements>
 		<workSkill>Crafting</workSkill>
+		<researchPrerequisites>
+			<li>RE_YMIRMech</li>
+		</researchPrerequisites>
 	</RecipeDef>
 
 </Defs>

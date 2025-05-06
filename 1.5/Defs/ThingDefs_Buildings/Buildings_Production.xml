@@ -143,6 +143,11 @@
 				<showOnlyInCategory>true</showOnlyInCategory>
 			</li>
 		</modExtensions>
+		<recipes>
+			<li>RE_DisassembleMech</li>
+			<li>Asimov_RechargeChargepack</li>
+			<li>Asimov_RechargeChargepackBulk</li>
+		</recipes>
 		<surfaceType>Item</surfaceType>
 		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
 		<placeWorkers>
