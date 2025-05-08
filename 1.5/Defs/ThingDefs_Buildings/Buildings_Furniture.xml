@@ -434,6 +434,7 @@
 		<blockLight>true</blockLight>
 		<canOverlapZones>false</canOverlapZones>
 		<castEdgeShadows>true</castEdgeShadows>
+		<blockWeather>true</blockWeather>
 		<staticSunShadowHeight>1.0</staticSunShadowHeight>
 		<statBases>
 			<WorkToBuild>400</WorkToBuild>
