@@ -58,7 +58,7 @@
 				<flattenSkills>true</flattenSkills>
 				<skillGainMulti>0</skillGainMulti>
 				<skillLossMulti>0</skillLossMulti>
-				<defaultSkillLevel>6</defaultSkillLevel>
+				<defaultSkillLevel>8</defaultSkillLevel>
 				<enableAllWorkTypes>false</enableAllWorkTypes>
 				<enabledWorkTypes>
 					<li>Mining</li>

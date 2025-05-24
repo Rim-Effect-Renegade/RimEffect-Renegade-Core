@@ -49,7 +49,7 @@
 		</butcherProducts>
 		<comps>
 			<li Class="Asimov.CompProperties_Automaton">
-				<canUseRanged>true</canUseRanged>
+				<canUseRanged>false</canUseRanged>
 				<canUseMelee>true</canUseMelee>
 				<corpseEdible>false</corpseEdible>
 				<corpseRots>false</corpseRots>
@@ -59,7 +59,7 @@
 				<flattenSkills>true</flattenSkills>
 				<skillGainMulti>0</skillGainMulti>
 				<skillLossMulti>0</skillLossMulti>
-				<defaultSkillLevel>6</defaultSkillLevel>
+				<defaultSkillLevel>4</defaultSkillLevel>
 				<enableAllWorkTypes>false</enableAllWorkTypes>
 				<enabledWorkTypes>
 					<li>Mining</li>
