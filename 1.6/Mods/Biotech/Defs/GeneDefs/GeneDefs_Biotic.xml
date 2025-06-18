@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<GeneDef>
+		<defName>RE_NaturalBiotic</defName>
+		<label>natural biotic</label>
+		<iconPath>Things/Item/Health/BioticAmp</iconPath>
+		<description>Carriers of this gene have an innate ability to use biotic powers.</description>
+		<displayCategory>Miscellaneous</displayCategory>
+		<displayOrderInCategory>-1000</displayOrderInCategory>
+		<biostatMet>-1</biostatMet>
+		<biostatCpx>2</biostatCpx>
+		<selectionWeight>0</selectionWeight>
+		<customEffectDescriptions>
+			<li>Losing this gene will make the colonist lose ALL biotic levels, though they will not forget the abilities they have already learned.</li>
+		</customEffectDescriptions>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<hediffsToBodyParts>
+					<li>
+						<hediff>RE_BioticNatural</hediff>
+						<bodyparts>
+							<li>Brain</li>
+						</bodyparts>
+					</li>
+				</hediffsToBodyParts>
+			</li>
+		</modExtensions>
+	</GeneDef>
+
+</Defs>

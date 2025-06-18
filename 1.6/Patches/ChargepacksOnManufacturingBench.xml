@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName="Asimov_Chargepack"]/recipeMaker/recipeUsers</xpath>
+		<value>
+			<li>RE_ManufacturingBench</li>
+		</value>
+	</Operation>
+
+</Patch>

@@ -1,0 +1,836 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D0F7D475-3F29-4B72-9A62-6A679ED4AEA5}|RimEffect.csproj|F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\abilities\\abilities\\ability_annihilation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0F7D475-3F29-4B72-9A62-6A679ED4AEA5}|RimEffect.csproj|solutionrelative:abilities\\abilities\\ability_annihilation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0F7D475-3F29-4B72-9A62-6A679ED4AEA5}|RimEffect.csproj|F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\jobs\\jobdriver_useviiterminal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0F7D475-3F29-4B72-9A62-6A679ED4AEA5}|RimEffect.csproj|solutionrelative:jobs\\jobdriver_useviiterminal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0F7D475-3F29-4B72-9A62-6A679ED4AEA5}|RimEffect.csproj|f:\\rwmodcategories\\neronix17\\rimeffectbiotech\\rimeffect-core-biotech\\1.6\\source\\rimeffect\\abilities\\abilities\\ability_singularity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0F7D475-3F29-4B72-9A62-6A679ED4AEA5}|RimEffect.csproj|solutionrelative:abilities\\abilities\\ability_singularity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0F7D475-3F29-4B72-9A62-6A679ED4AEA5}|RimEffect.csproj|f:\\rwmodcategories\\neronix17\\rimeffectbiotech\\rimeffect-core-biotech\\1.6\\source\\rimeffect\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0F7D475-3F29-4B72-9A62-6A679ED4AEA5}|RimEffect.csproj|solutionrelative:properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0F7D475-3F29-4B72-9A62-6A679ED4AEA5}|RimEffect.csproj|f:\\rwmodcategories\\neronix17\\rimeffectbiotech\\rimeffect-core-biotech\\1.6\\source\\rimeffect\\rimeffectmod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0F7D475-3F29-4B72-9A62-6A679ED4AEA5}|RimEffect.csproj|solutionrelative:rimeffectmod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0F7D475-3F29-4B72-9A62-6A679ED4AEA5}|RimEffect.csproj|F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\harmony\\patch_jobdriver_tendpatient_makenewtoils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0F7D475-3F29-4B72-9A62-6A679ED4AEA5}|RimEffect.csproj|solutionrelative:harmony\\patch_jobdriver_tendpatient_makenewtoils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0F7D475-3F29-4B72-9A62-6A679ED4AEA5}|RimEffect.csproj|F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\harmony\\patch_jobgiver_wander_trygivejob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0F7D475-3F29-4B72-9A62-6A679ED4AEA5}|RimEffect.csproj|solutionrelative:harmony\\patch_jobgiver_wander_trygivejob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0F7D475-3F29-4B72-9A62-6A679ED4AEA5}|RimEffect.csproj|F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\harmony\\patch_tendutility_dotend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0F7D475-3F29-4B72-9A62-6A679ED4AEA5}|RimEffect.csproj|solutionrelative:harmony\\patch_tendutility_dotend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0F7D475-3F29-4B72-9A62-6A679ED4AEA5}|RimEffect.csproj|F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\harmony\\patch_pawnrenderutility_drawequipmentandapparelextras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0F7D475-3F29-4B72-9A62-6A679ED4AEA5}|RimEffect.csproj|solutionrelative:harmony\\patch_pawnrenderutility_drawequipmentandapparelextras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0F7D475-3F29-4B72-9A62-6A679ED4AEA5}|RimEffect.csproj|F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\harmony\\patch_researchproject_canberesearchedat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0F7D475-3F29-4B72-9A62-6A679ED4AEA5}|RimEffect.csproj|solutionrelative:harmony\\patch_researchproject_canberesearchedat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0F7D475-3F29-4B72-9A62-6A679ED4AEA5}|RimEffect.csproj|F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\gensteps\\genstep_re_kodiakshuttlecrash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0F7D475-3F29-4B72-9A62-6A679ED4AEA5}|RimEffect.csproj|solutionrelative:gensteps\\genstep_re_kodiakshuttlecrash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0F7D475-3F29-4B72-9A62-6A679ED4AEA5}|RimEffect.csproj|F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\comps\\comppowerplantzero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0F7D475-3F29-4B72-9A62-6A679ED4AEA5}|RimEffect.csproj|solutionrelative:comps\\comppowerplantzero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0F7D475-3F29-4B72-9A62-6A679ED4AEA5}|RimEffect.csproj|F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\comps\\comppowerplantnuclear.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0F7D475-3F29-4B72-9A62-6A679ED4AEA5}|RimEffect.csproj|solutionrelative:comps\\comppowerplantnuclear.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0F7D475-3F29-4B72-9A62-6A679ED4AEA5}|RimEffect.csproj|F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\abilities\\hediffcomp_naturalbiotic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0F7D475-3F29-4B72-9A62-6A679ED4AEA5}|RimEffect.csproj|solutionrelative:abilities\\hediffcomp_naturalbiotic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0F7D475-3F29-4B72-9A62-6A679ED4AEA5}|RimEffect.csproj|F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\re_defof.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0F7D475-3F29-4B72-9A62-6A679ED4AEA5}|RimEffect.csproj|solutionrelative:re_defof.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0F7D475-3F29-4B72-9A62-6A679ED4AEA5}|RimEffect.csproj|F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\abilities\\abilities\\ability_pull.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0F7D475-3F29-4B72-9A62-6A679ED4AEA5}|RimEffect.csproj|solutionrelative:abilities\\abilities\\ability_pull.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0F7D475-3F29-4B72-9A62-6A679ED4AEA5}|RimEffect.csproj|F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\apparels\\ammobelt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0F7D475-3F29-4B72-9A62-6A679ED4AEA5}|RimEffect.csproj|solutionrelative:apparels\\ammobelt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0F7D475-3F29-4B72-9A62-6A679ED4AEA5}|RimEffect.csproj|F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\abilities\\abilities\\ability_charge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0F7D475-3F29-4B72-9A62-6A679ED4AEA5}|RimEffect.csproj|solutionrelative:abilities\\abilities\\ability_charge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0F7D475-3F29-4B72-9A62-6A679ED4AEA5}|RimEffect.csproj|F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\jobs\\jobdriver_leavemap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0F7D475-3F29-4B72-9A62-6A679ED4AEA5}|RimEffect.csproj|solutionrelative:jobs\\jobdriver_leavemap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0F7D475-3F29-4B72-9A62-6A679ED4AEA5}|RimEffect.csproj|F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\jobs\\jobdriver_freehostages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0F7D475-3F29-4B72-9A62-6A679ED4AEA5}|RimEffect.csproj|solutionrelative:jobs\\jobdriver_freehostages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0F7D475-3F29-4B72-9A62-6A679ED4AEA5}|RimEffect.csproj|F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\buildings\\building_galaxymap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0F7D475-3F29-4B72-9A62-6A679ED4AEA5}|RimEffect.csproj|solutionrelative:buildings\\building_galaxymap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0F7D475-3F29-4B72-9A62-6A679ED4AEA5}|RimEffect.csproj|F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\buildings\\building_viinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0F7D475-3F29-4B72-9A62-6A679ED4AEA5}|RimEffect.csproj|solutionrelative:buildings\\building_viinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0F7D475-3F29-4B72-9A62-6A679ED4AEA5}|RimEffect.csproj|F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\questnodes\\questnode_newpawnsarrive.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0F7D475-3F29-4B72-9A62-6A679ED4AEA5}|RimEffect.csproj|solutionrelative:questnodes\\questnode_newpawnsarrive.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0F7D475-3F29-4B72-9A62-6A679ED4AEA5}|RimEffect.csproj|F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\questnodes\\questnode_getroomstobuild.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0F7D475-3F29-4B72-9A62-6A679ED4AEA5}|RimEffect.csproj|solutionrelative:questnodes\\questnode_getroomstobuild.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0F7D475-3F29-4B72-9A62-6A679ED4AEA5}|RimEffect.csproj|F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\questnodes\\questnode_getrandompawnkinds.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0F7D475-3F29-4B72-9A62-6A679ED4AEA5}|RimEffect.csproj|solutionrelative:questnodes\\questnode_getrandompawnkinds.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0F7D475-3F29-4B72-9A62-6A679ED4AEA5}|RimEffect.csproj|F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\questnodes\\questnode_getpawn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0F7D475-3F29-4B72-9A62-6A679ED4AEA5}|RimEffect.csproj|solutionrelative:questnodes\\questnode_getpawn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0F7D475-3F29-4B72-9A62-6A679ED4AEA5}|RimEffect.csproj|F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\questnodes\\questnode_generatepawns.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0F7D475-3F29-4B72-9A62-6A679ED4AEA5}|RimEffect.csproj|solutionrelative:questnodes\\questnode_generatepawns.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0F7D475-3F29-4B72-9A62-6A679ED4AEA5}|RimEffect.csproj|F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\jobs\\joygiver_useviterminal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0F7D475-3F29-4B72-9A62-6A679ED4AEA5}|RimEffect.csproj|solutionrelative:jobs\\joygiver_useviterminal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0F7D475-3F29-4B72-9A62-6A679ED4AEA5}|RimEffect.csproj|F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\jobs\\jobgiver_pyjaknuzzle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0F7D475-3F29-4B72-9A62-6A679ED4AEA5}|RimEffect.csproj|solutionrelative:jobs\\jobgiver_pyjaknuzzle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0F7D475-3F29-4B72-9A62-6A679ED4AEA5}|RimEffect.csproj|F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\jobs\\jobgiver_haulitemstorandomplaces.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0F7D475-3F29-4B72-9A62-6A679ED4AEA5}|RimEffect.csproj|solutionrelative:jobs\\jobgiver_haulitemstorandomplaces.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0F7D475-3F29-4B72-9A62-6A679ED4AEA5}|RimEffect.csproj|F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\jobs\\jobgiver_attackotherhostiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0F7D475-3F29-4B72-9A62-6A679ED4AEA5}|RimEffect.csproj|solutionrelative:jobs\\jobgiver_attackotherhostiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0F7D475-3F29-4B72-9A62-6A679ED4AEA5}|RimEffect.csproj|F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\jobs\\jobdriver_pyjaknuzzle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0F7D475-3F29-4B72-9A62-6A679ED4AEA5}|RimEffect.csproj|solutionrelative:jobs\\jobdriver_pyjaknuzzle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0F7D475-3F29-4B72-9A62-6A679ED4AEA5}|RimEffect.csproj|F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\jobs\\jobdriver_openspawnoninteract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0F7D475-3F29-4B72-9A62-6A679ED4AEA5}|RimEffect.csproj|solutionrelative:jobs\\jobdriver_openspawnoninteract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0F7D475-3F29-4B72-9A62-6A679ED4AEA5}|RimEffect.csproj|F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\incidents\\incidentworker_pyjakcrate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0F7D475-3F29-4B72-9A62-6A679ED4AEA5}|RimEffect.csproj|solutionrelative:incidents\\incidentworker_pyjakcrate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0F7D475-3F29-4B72-9A62-6A679ED4AEA5}|RimEffect.csproj|F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\incidents\\incidentworker_localbattlefield.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0F7D475-3F29-4B72-9A62-6A679ED4AEA5}|RimEffect.csproj|solutionrelative:incidents\\incidentworker_localbattlefield.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0F7D475-3F29-4B72-9A62-6A679ED4AEA5}|RimEffect.csproj|F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\gensteps\\genstep_re_hostagessite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0F7D475-3F29-4B72-9A62-6A679ED4AEA5}|RimEffect.csproj|solutionrelative:gensteps\\genstep_re_hostagessite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0F7D475-3F29-4B72-9A62-6A679ED4AEA5}|RimEffect.csproj|F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\comps\\comppowerplantsolarcollectors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0F7D475-3F29-4B72-9A62-6A679ED4AEA5}|RimEffect.csproj|solutionrelative:comps\\comppowerplantsolarcollectors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0F7D475-3F29-4B72-9A62-6A679ED4AEA5}|RimEffect.csproj|F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\harmony\\patch_pawn_interactionstracker_caninteractnowwith.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0F7D475-3F29-4B72-9A62-6A679ED4AEA5}|RimEffect.csproj|solutionrelative:harmony\\patch_pawn_interactionstracker_caninteractnowwith.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0F7D475-3F29-4B72-9A62-6A679ED4AEA5}|RimEffect.csproj|F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\harmony\\patch_pawn_drawtracker_notify_damageapplied.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0F7D475-3F29-4B72-9A62-6A679ED4AEA5}|RimEffect.csproj|solutionrelative:harmony\\patch_pawn_drawtracker_notify_damageapplied.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0F7D475-3F29-4B72-9A62-6A679ED4AEA5}|RimEffect.csproj|F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\harmony\\patch_equipmentutility_canequip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0F7D475-3F29-4B72-9A62-6A679ED4AEA5}|RimEffect.csproj|solutionrelative:harmony\\patch_equipmentutility_canequip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0F7D475-3F29-4B72-9A62-6A679ED4AEA5}|RimEffect.csproj|F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\comps\\compplantharmradiusifbroken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0F7D475-3F29-4B72-9A62-6A679ED4AEA5}|RimEffect.csproj|solutionrelative:comps\\compplantharmradiusifbroken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0F7D475-3F29-4B72-9A62-6A679ED4AEA5}|RimEffect.csproj|F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\harmony\\patch_tickmanager_dosingletick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0F7D475-3F29-4B72-9A62-6A679ED4AEA5}|RimEffect.csproj|solutionrelative:harmony\\patch_tickmanager_dosingletick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0F7D475-3F29-4B72-9A62-6A679ED4AEA5}|RimEffect.csproj|F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\harmony\\patch_floatmenumakermap_addhumanlikeorders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0F7D475-3F29-4B72-9A62-6A679ED4AEA5}|RimEffect.csproj|solutionrelative:harmony\\patch_floatmenumakermap_addhumanlikeorders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0F7D475-3F29-4B72-9A62-6A679ED4AEA5}|RimEffect.csproj|F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\harmony\\patch_hediffset_adddirect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0F7D475-3F29-4B72-9A62-6A679ED4AEA5}|RimEffect.csproj|solutionrelative:harmony\\patch_hediffset_adddirect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0F7D475-3F29-4B72-9A62-6A679ED4AEA5}|RimEffect.csproj|F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\harmony\\patch_healthaiutility_findbestmedicine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0F7D475-3F29-4B72-9A62-6A679ED4AEA5}|RimEffect.csproj|solutionrelative:harmony\\patch_healthaiutility_findbestmedicine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0F7D475-3F29-4B72-9A62-6A679ED4AEA5}|RimEffect.csproj|F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\utilities\\medigelutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0F7D475-3F29-4B72-9A62-6A679ED4AEA5}|RimEffect.csproj|solutionrelative:utilities\\medigelutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0F7D475-3F29-4B72-9A62-6A679ED4AEA5}|RimEffect.csproj|F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\comps\\compuseeffect_medigel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0F7D475-3F29-4B72-9A62-6A679ED4AEA5}|RimEffect.csproj|solutionrelative:comps\\compuseeffect_medigel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0F7D475-3F29-4B72-9A62-6A679ED4AEA5}|RimEffect.csproj|F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\rimeffectsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0F7D475-3F29-4B72-9A62-6A679ED4AEA5}|RimEffect.csproj|solutionrelative:rimeffectsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Ability_Singularity.cs",
+              "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\Abilities\\Abilities\\Ability_Singularity.cs",
+              "RelativeDocumentMoniker": "Abilities\\Abilities\\Ability_Singularity.cs",
+              "ToolTip": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\Abilities\\Abilities\\Ability_Singularity.cs*",
+              "RelativeToolTip": "Abilities\\Abilities\\Ability_Singularity.cs*",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAvwGIAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T07:36:41.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\Properties\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "Properties\\AssemblyInfo.cs",
+              "ToolTip": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\Properties\\AssemblyInfo.cs",
+              "RelativeToolTip": "Properties\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T07:33:57.162Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Patch_TendUtility_DoTend.cs",
+              "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\Harmony\\Patch_TendUtility_DoTend.cs",
+              "RelativeDocumentMoniker": "Harmony\\Patch_TendUtility_DoTend.cs",
+              "ToolTip": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\Harmony\\Patch_TendUtility_DoTend.cs",
+              "RelativeToolTip": "Harmony\\Patch_TendUtility_DoTend.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAADwvxMAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T07:33:30.925Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Patch_JobGiver_Wander_TryGiveJob.cs",
+              "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\Harmony\\Patch_JobGiver_Wander_TryGiveJob.cs",
+              "RelativeDocumentMoniker": "Harmony\\Patch_JobGiver_Wander_TryGiveJob.cs",
+              "ToolTip": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\Harmony\\Patch_JobGiver_Wander_TryGiveJob.cs",
+              "RelativeToolTip": "Harmony\\Patch_JobGiver_Wander_TryGiveJob.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T07:33:30.925Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "JobDriver_UseVIITerminal.cs",
+              "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\Jobs\\JobDriver_UseVIITerminal.cs",
+              "RelativeDocumentMoniker": "Jobs\\JobDriver_UseVIITerminal.cs",
+              "ToolTip": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\Jobs\\JobDriver_UseVIITerminal.cs",
+              "RelativeToolTip": "Jobs\\JobDriver_UseVIITerminal.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAvwCkAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T07:33:31.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Ability_Annihilation.cs",
+              "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\Abilities\\Abilities\\Ability_Annihilation.cs",
+              "RelativeDocumentMoniker": "Abilities\\Abilities\\Ability_Annihilation.cs",
+              "ToolTip": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\Abilities\\Abilities\\Ability_Annihilation.cs",
+              "RelativeToolTip": "Abilities\\Abilities\\Ability_Annihilation.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAewCkAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T07:33:31.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Patch_ResearchProject_CanBeResearchedAt.cs",
+              "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\Harmony\\Patch_ResearchProject_CanBeResearchedAt.cs",
+              "RelativeDocumentMoniker": "Harmony\\Patch_ResearchProject_CanBeResearchedAt.cs",
+              "ToolTip": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\Harmony\\Patch_ResearchProject_CanBeResearchedAt.cs",
+              "RelativeToolTip": "Harmony\\Patch_ResearchProject_CanBeResearchedAt.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T07:33:30.924Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Patch_PawnRenderUtility_DrawEquipmentAndApparelExtras.cs",
+              "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\Harmony\\Patch_PawnRenderUtility_DrawEquipmentAndApparelExtras.cs",
+              "RelativeDocumentMoniker": "Harmony\\Patch_PawnRenderUtility_DrawEquipmentAndApparelExtras.cs",
+              "ToolTip": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\Harmony\\Patch_PawnRenderUtility_DrawEquipmentAndApparelExtras.cs",
+              "RelativeToolTip": "Harmony\\Patch_PawnRenderUtility_DrawEquipmentAndApparelExtras.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T07:33:30.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Patch_JobDriver_TendPatient_MakeNewToils.cs",
+              "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\Harmony\\Patch_JobDriver_TendPatient_MakeNewToils.cs",
+              "RelativeDocumentMoniker": "Harmony\\Patch_JobDriver_TendPatient_MakeNewToils.cs",
+              "ToolTip": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\Harmony\\Patch_JobDriver_TendPatient_MakeNewToils.cs",
+              "RelativeToolTip": "Harmony\\Patch_JobDriver_TendPatient_MakeNewToils.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB8AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T07:33:30.926Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RimEffectMod.cs",
+              "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\RimEffectMod.cs",
+              "RelativeDocumentMoniker": "RimEffectMod.cs",
+              "ToolTip": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\RimEffectMod.cs",
+              "RelativeToolTip": "RimEffectMod.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAgwC0AAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T07:33:31.047Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Building_GalaxyMap.cs",
+              "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\Buildings\\Building_GalaxyMap.cs",
+              "RelativeDocumentMoniker": "Buildings\\Building_GalaxyMap.cs",
+              "ToolTip": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\Buildings\\Building_GalaxyMap.cs",
+              "RelativeToolTip": "Buildings\\Building_GalaxyMap.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBsAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T07:33:30.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Ability_Charge.cs",
+              "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\Abilities\\Abilities\\Ability_Charge.cs",
+              "RelativeDocumentMoniker": "Abilities\\Abilities\\Ability_Charge.cs",
+              "ToolTip": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\Abilities\\Abilities\\Ability_Charge.cs",
+              "RelativeToolTip": "Abilities\\Abilities\\Ability_Charge.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T07:33:31.091Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AmmoBelt.cs",
+              "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\Apparels\\AmmoBelt.cs",
+              "RelativeDocumentMoniker": "Apparels\\AmmoBelt.cs",
+              "ToolTip": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\Apparels\\AmmoBelt.cs",
+              "RelativeToolTip": "Apparels\\AmmoBelt.cs",
+              "ViewState": "AgIAAK4AAAAAAAAAAAAEwMEAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T07:33:31.092Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Ability_Pull.cs",
+              "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\Abilities\\Abilities\\Ability_Pull.cs",
+              "RelativeDocumentMoniker": "Abilities\\Abilities\\Ability_Pull.cs",
+              "ToolTip": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\Abilities\\Abilities\\Ability_Pull.cs",
+              "RelativeToolTip": "Abilities\\Abilities\\Ability_Pull.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAEwCYAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T07:33:31.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "HediffComp_NaturalBiotic.cs",
+              "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\Abilities\\HediffComp_NaturalBiotic.cs",
+              "RelativeDocumentMoniker": "Abilities\\HediffComp_NaturalBiotic.cs",
+              "ToolTip": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\Abilities\\HediffComp_NaturalBiotic.cs",
+              "RelativeToolTip": "Abilities\\HediffComp_NaturalBiotic.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAADGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T07:33:31.094Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "GenStep_RE_KodiakShuttleCrash.cs",
+              "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\GenSteps\\GenStep_RE_KodiakShuttleCrash.cs",
+              "RelativeDocumentMoniker": "GenSteps\\GenStep_RE_KodiakShuttleCrash.cs",
+              "ToolTip": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\GenSteps\\GenStep_RE_KodiakShuttleCrash.cs",
+              "RelativeToolTip": "GenSteps\\GenStep_RE_KodiakShuttleCrash.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAEwDAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T07:33:31.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CompPowerPlantNuclear.cs",
+              "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\Comps\\CompPowerPlantNuclear.cs",
+              "RelativeDocumentMoniker": "Comps\\CompPowerPlantNuclear.cs",
+              "ToolTip": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\Comps\\CompPowerPlantNuclear.cs",
+              "RelativeToolTip": "Comps\\CompPowerPlantNuclear.cs",
+              "ViewState": "AgIAAHQAAAAAAAAAAAAEwI0AAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T07:33:31.096Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CompPowerPlantZero.cs",
+              "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\Comps\\CompPowerPlantZero.cs",
+              "RelativeDocumentMoniker": "Comps\\CompPowerPlantZero.cs",
+              "ToolTip": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\Comps\\CompPowerPlantZero.cs",
+              "RelativeToolTip": "Comps\\CompPowerPlantZero.cs",
+              "ViewState": "AgIAAHQAAAAAAAAAAAAEwI0AAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T07:33:31.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "QuestNode_NewPawnsArrive.cs",
+              "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\QuestNodes\\QuestNode_NewPawnsArrive.cs",
+              "RelativeDocumentMoniker": "QuestNodes\\QuestNode_NewPawnsArrive.cs",
+              "ToolTip": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\QuestNodes\\QuestNode_NewPawnsArrive.cs",
+              "RelativeToolTip": "QuestNodes\\QuestNode_NewPawnsArrive.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAnwC8AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T07:33:31.098Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "QuestNode_GetRoomsToBuild.cs",
+              "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\QuestNodes\\QuestNode_GetRoomsToBuild.cs",
+              "RelativeDocumentMoniker": "QuestNodes\\QuestNode_GetRoomsToBuild.cs",
+              "ToolTip": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\QuestNodes\\QuestNode_GetRoomsToBuild.cs",
+              "RelativeToolTip": "QuestNodes\\QuestNode_GetRoomsToBuild.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T07:33:31.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "RE_DefOf.cs",
+              "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\RE_DefOf.cs",
+              "RelativeDocumentMoniker": "RE_DefOf.cs",
+              "ToolTip": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\RE_DefOf.cs",
+              "RelativeToolTip": "RE_DefOf.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAQwFsAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T07:33:31.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "QuestNode_GetRandomPawnKinds.cs",
+              "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\QuestNodes\\QuestNode_GetRandomPawnKinds.cs",
+              "RelativeDocumentMoniker": "QuestNodes\\QuestNode_GetRandomPawnKinds.cs",
+              "ToolTip": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\QuestNodes\\QuestNode_GetRandomPawnKinds.cs",
+              "RelativeToolTip": "QuestNodes\\QuestNode_GetRandomPawnKinds.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T07:33:31.101Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Building_VIInterface.cs",
+              "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\Buildings\\Building_VIInterface.cs",
+              "RelativeDocumentMoniker": "Buildings\\Building_VIInterface.cs",
+              "ToolTip": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\Buildings\\Building_VIInterface.cs",
+              "RelativeToolTip": "Buildings\\Building_VIInterface.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAvwF4AAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T07:33:31.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "JobDriver_FreeHostages.cs",
+              "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\Jobs\\JobDriver_FreeHostages.cs",
+              "RelativeDocumentMoniker": "Jobs\\JobDriver_FreeHostages.cs",
+              "ToolTip": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\Jobs\\JobDriver_FreeHostages.cs",
+              "RelativeToolTip": "Jobs\\JobDriver_FreeHostages.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAnwCQAAACNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T07:33:31.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "JobDriver_LeaveMap.cs",
+              "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\Jobs\\JobDriver_LeaveMap.cs",
+              "RelativeDocumentMoniker": "Jobs\\JobDriver_LeaveMap.cs",
+              "ToolTip": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\Jobs\\JobDriver_LeaveMap.cs",
+              "RelativeToolTip": "Jobs\\JobDriver_LeaveMap.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAnwBoAAAB7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T07:33:31.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "QuestNode_GetPawn.cs",
+              "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\QuestNodes\\QuestNode_GetPawn.cs",
+              "RelativeDocumentMoniker": "QuestNodes\\QuestNode_GetPawn.cs",
+              "ToolTip": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\QuestNodes\\QuestNode_GetPawn.cs",
+              "RelativeToolTip": "QuestNodes\\QuestNode_GetPawn.cs",
+              "ViewState": "AgIAAGgAAAAAAAAAAAAvwHoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T07:33:31.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "QuestNode_GeneratePawns.cs",
+              "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\QuestNodes\\QuestNode_GeneratePawns.cs",
+              "RelativeDocumentMoniker": "QuestNodes\\QuestNode_GeneratePawns.cs",
+              "ToolTip": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\QuestNodes\\QuestNode_GeneratePawns.cs",
+              "RelativeToolTip": "QuestNodes\\QuestNode_GeneratePawns.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T07:33:31.106Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "JoyGiver_UseVITerminal.cs",
+              "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\Jobs\\JoyGiver_UseVITerminal.cs",
+              "RelativeDocumentMoniker": "Jobs\\JoyGiver_UseVITerminal.cs",
+              "ToolTip": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\Jobs\\JoyGiver_UseVITerminal.cs",
+              "RelativeToolTip": "Jobs\\JoyGiver_UseVITerminal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T07:33:31.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "JobGiver_PyjakNuzzle.cs",
+              "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\Jobs\\JobGiver_PyjakNuzzle.cs",
+              "RelativeDocumentMoniker": "Jobs\\JobGiver_PyjakNuzzle.cs",
+              "ToolTip": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\Jobs\\JobGiver_PyjakNuzzle.cs",
+              "RelativeToolTip": "Jobs\\JobGiver_PyjakNuzzle.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T07:33:31.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "JobGiver_HaulItemsToRandomPlaces.cs",
+              "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\Jobs\\JobGiver_HaulItemsToRandomPlaces.cs",
+              "RelativeDocumentMoniker": "Jobs\\JobGiver_HaulItemsToRandomPlaces.cs",
+              "ToolTip": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\Jobs\\JobGiver_HaulItemsToRandomPlaces.cs",
+              "RelativeToolTip": "Jobs\\JobGiver_HaulItemsToRandomPlaces.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T07:33:31.109Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "JobGiver_AttackOtherHostiles.cs",
+              "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\Jobs\\JobGiver_AttackOtherHostiles.cs",
+              "RelativeDocumentMoniker": "Jobs\\JobGiver_AttackOtherHostiles.cs",
+              "ToolTip": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\Jobs\\JobGiver_AttackOtherHostiles.cs",
+              "RelativeToolTip": "Jobs\\JobGiver_AttackOtherHostiles.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T07:33:31.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "JobDriver_PyjakNuzzle.cs",
+              "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\Jobs\\JobDriver_PyjakNuzzle.cs",
+              "RelativeDocumentMoniker": "Jobs\\JobDriver_PyjakNuzzle.cs",
+              "ToolTip": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\Jobs\\JobDriver_PyjakNuzzle.cs",
+              "RelativeToolTip": "Jobs\\JobDriver_PyjakNuzzle.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAEwBQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T07:33:31.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "JobDriver_OpenSpawnOnInteract.cs",
+              "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\Jobs\\JobDriver_OpenSpawnOnInteract.cs",
+              "RelativeDocumentMoniker": "Jobs\\JobDriver_OpenSpawnOnInteract.cs",
+              "ToolTip": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\Jobs\\JobDriver_OpenSpawnOnInteract.cs",
+              "RelativeToolTip": "Jobs\\JobDriver_OpenSpawnOnInteract.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAEwBUAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T07:33:31.113Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "IncidentWorker_PyjakCrate.cs",
+              "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\Incidents\\IncidentWorker_PyjakCrate.cs",
+              "RelativeDocumentMoniker": "Incidents\\IncidentWorker_PyjakCrate.cs",
+              "ToolTip": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\Incidents\\IncidentWorker_PyjakCrate.cs",
+              "RelativeToolTip": "Incidents\\IncidentWorker_PyjakCrate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T07:33:31.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "IncidentWorker_LocalBattlefield.cs",
+              "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\Incidents\\IncidentWorker_LocalBattlefield.cs",
+              "RelativeDocumentMoniker": "Incidents\\IncidentWorker_LocalBattlefield.cs",
+              "ToolTip": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\Incidents\\IncidentWorker_LocalBattlefield.cs",
+              "RelativeToolTip": "Incidents\\IncidentWorker_LocalBattlefield.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAvwDwAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T07:33:31.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "GenStep_RE_HostagesSite.cs",
+              "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\GenSteps\\GenStep_RE_HostagesSite.cs",
+              "RelativeDocumentMoniker": "GenSteps\\GenStep_RE_HostagesSite.cs",
+              "ToolTip": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\GenSteps\\GenStep_RE_HostagesSite.cs",
+              "RelativeToolTip": "GenSteps\\GenStep_RE_HostagesSite.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAvwCoAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T07:33:31.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "CompPowerPlantSolarCollectors.cs",
+              "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\Comps\\CompPowerPlantSolarCollectors.cs",
+              "RelativeDocumentMoniker": "Comps\\CompPowerPlantSolarCollectors.cs",
+              "ToolTip": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\Comps\\CompPowerPlantSolarCollectors.cs",
+              "RelativeToolTip": "Comps\\CompPowerPlantSolarCollectors.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAEwBkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T07:33:31.117Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Patch_Pawn_InteractionsTrackeR_CanInteractNowWith.cs",
+              "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\Harmony\\Patch_Pawn_InteractionsTrackeR_CanInteractNowWith.cs",
+              "RelativeDocumentMoniker": "Harmony\\Patch_Pawn_InteractionsTrackeR_CanInteractNowWith.cs",
+              "ToolTip": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\Harmony\\Patch_Pawn_InteractionsTrackeR_CanInteractNowWith.cs",
+              "RelativeToolTip": "Harmony\\Patch_Pawn_InteractionsTrackeR_CanInteractNowWith.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T07:33:31.119Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Patch_Pawn_DrawTracker_Notify_DamageApplied.cs",
+              "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\Harmony\\Patch_Pawn_DrawTracker_Notify_DamageApplied.cs",
+              "RelativeDocumentMoniker": "Harmony\\Patch_Pawn_DrawTracker_Notify_DamageApplied.cs",
+              "ToolTip": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\Harmony\\Patch_Pawn_DrawTracker_Notify_DamageApplied.cs",
+              "RelativeToolTip": "Harmony\\Patch_Pawn_DrawTracker_Notify_DamageApplied.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T07:33:31.12Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Patch_EquipmentUtility_CanEquip.cs",
+              "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\Harmony\\Patch_EquipmentUtility_CanEquip.cs",
+              "RelativeDocumentMoniker": "Harmony\\Patch_EquipmentUtility_CanEquip.cs",
+              "ToolTip": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\Harmony\\Patch_EquipmentUtility_CanEquip.cs",
+              "RelativeToolTip": "Harmony\\Patch_EquipmentUtility_CanEquip.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T07:33:31.121Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "CompPlantHarmRadiusIfBroken.cs",
+              "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\Comps\\CompPlantHarmRadiusIfBroken.cs",
+              "RelativeDocumentMoniker": "Comps\\CompPlantHarmRadiusIfBroken.cs",
+              "ToolTip": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\Comps\\CompPlantHarmRadiusIfBroken.cs",
+              "RelativeToolTip": "Comps\\CompPlantHarmRadiusIfBroken.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAvwDgAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T07:33:31.122Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Patch_TickManager_DoSingleTick.cs",
+              "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\Harmony\\Patch_TickManager_DoSingleTick.cs",
+              "RelativeDocumentMoniker": "Harmony\\Patch_TickManager_DoSingleTick.cs",
+              "ToolTip": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\Harmony\\Patch_TickManager_DoSingleTick.cs",
+              "RelativeToolTip": "Harmony\\Patch_TickManager_DoSingleTick.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACsAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T07:33:31.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Patch_FloatMenuMakerMap_AddHumanlikeOrders.cs",
+              "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\Harmony\\Patch_FloatMenuMakerMap_AddHumanlikeOrders.cs",
+              "RelativeDocumentMoniker": "Harmony\\Patch_FloatMenuMakerMap_AddHumanlikeOrders.cs",
+              "ToolTip": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\Harmony\\Patch_FloatMenuMakerMap_AddHumanlikeOrders.cs",
+              "RelativeToolTip": "Harmony\\Patch_FloatMenuMakerMap_AddHumanlikeOrders.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T07:33:31.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Patch_HediffSet_AddDirect.cs",
+              "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\Harmony\\Patch_HediffSet_AddDirect.cs",
+              "RelativeDocumentMoniker": "Harmony\\Patch_HediffSet_AddDirect.cs",
+              "ToolTip": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\Harmony\\Patch_HediffSet_AddDirect.cs",
+              "RelativeToolTip": "Harmony\\Patch_HediffSet_AddDirect.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T07:33:31.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Patch_HealthAIUtility_FindBestMedicine.cs",
+              "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\Harmony\\Patch_HealthAIUtility_FindBestMedicine.cs",
+              "RelativeDocumentMoniker": "Harmony\\Patch_HealthAIUtility_FindBestMedicine.cs",
+              "ToolTip": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\Harmony\\Patch_HealthAIUtility_FindBestMedicine.cs",
+              "RelativeToolTip": "Harmony\\Patch_HealthAIUtility_FindBestMedicine.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T07:33:31.125Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "MediGelUtility.cs",
+              "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\Utilities\\MediGelUtility.cs",
+              "RelativeDocumentMoniker": "Utilities\\MediGelUtility.cs",
+              "ToolTip": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\Utilities\\MediGelUtility.cs",
+              "RelativeToolTip": "Utilities\\MediGelUtility.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T07:33:31.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "CompUseEffect_MediGel.cs",
+              "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\Comps\\CompUseEffect_MediGel.cs",
+              "RelativeDocumentMoniker": "Comps\\CompUseEffect_MediGel.cs",
+              "ToolTip": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\Comps\\CompUseEffect_MediGel.cs",
+              "RelativeToolTip": "Comps\\CompUseEffect_MediGel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T07:33:31.127Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "RimEffectSettings.cs",
+              "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\RimEffectSettings.cs",
+              "RelativeDocumentMoniker": "RimEffectSettings.cs",
+              "ToolTip": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\RimEffectSettings.cs",
+              "RelativeToolTip": "RimEffectSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T07:33:31.128Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
