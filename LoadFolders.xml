@@ -2,12 +2,14 @@
 <loadFolders>
 	<v1.5>
 		<li>/</li>
+		<li>Common_Old</li>
 		<li>1.5</li>
 		<li IfModActive="Ludeon.RimWorld.Biotech">1.5/Mods/Biotech</li>
 		<li IfModActive="Neronix17.StuffedFloors">1.5/Mods/StuffedFloorsReborn</li>
 	</v1.5>
 	<v1.6>
 		<li>/</li>
+		<li>Common</li>
 		<li>1.6</li>
 		<li IfModActive="Ludeon.RimWorld.Biotech">1.6/Mods/Biotech</li>
 		<li IfModActive="Neronix17.StuffedFloors">1.6/Mods/StuffedFloorsReborn</li>
