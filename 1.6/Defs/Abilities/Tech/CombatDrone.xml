@@ -48,7 +48,7 @@
 		</building>
 		<comps>
 			<li>
-				<compClass>VFECore.Abilities.CompSpawnedBuilding</compClass>
+				<compClass>VEF.Abilities.CompSpawnedBuilding</compClass>
 			</li>
 			<li Class="CompProperties_Glower">
 				<glowRadius>4</glowRadius>

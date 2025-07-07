@@ -10,7 +10,7 @@
 		<summaryPriority>300</summaryPriority>
 	</ScenPartDef>
 
-	<ScenarioDef Name="RE_AllianceColony">
+	<ScenarioDef ParentName="ScenarioBase" Name="RE_AllianceColony">
 		<defName>RE_AllianceColony</defName>
 		<label>Alliance colony</label>
 		<description>Your colony is struggling with various threats, both external and internal, halting your expansion and making you vulnerable to attacks. It is time to bring this colony into its golden age.</description>
@@ -112,7 +112,7 @@
 						<li>AlliancePlayerBase5</li>
 					</chooseFrom>
 				</li>
-				<li Class="VFECore.ScenPart_ForcedFactionGoodwill">
+				<li Class="VEF.Factions.ScenPart_ForcedFactionGoodwill">
 					<factionDef>RE_SystemsAlliance</factionDef>
 					<affectStartingGoodwill>True</affectStartingGoodwill>
 					<startingGoodwillRange>100~100</startingGoodwillRange>

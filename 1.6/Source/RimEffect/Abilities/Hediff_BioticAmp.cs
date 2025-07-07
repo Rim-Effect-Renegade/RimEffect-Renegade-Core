@@ -5,9 +5,9 @@
     using RimWorld.Planet;
     using UnityEngine;
     using Verse;
-    using VFECore.Abilities;
-    using Ability = VFECore.Abilities.Ability;
-    using AbilityDef = VFECore.Abilities.AbilityDef;
+    using VEF.Abilities;
+    using Ability = VEF.Abilities.Ability;
+    using AbilityDef = VEF.Abilities.AbilityDef;
 
     public class Hediff_BioticAmp : Hediff_Abilities
     {

@@ -7,12 +7,11 @@ using System.Text;
 using System.Threading.Tasks;
 using UnityEngine;
 using Verse;
-using VFEMech;
+using VEF;
+using VEF.Apparels;
 
 namespace RimEffect
 {
-    using VFECore;
-
     [StaticConstructorOnStartup]
     public class Gizmo_EnergyCompShieldStatus : Gizmo
     {

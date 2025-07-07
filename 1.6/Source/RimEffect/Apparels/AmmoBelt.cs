@@ -7,7 +7,8 @@ using System.Text;
 using System.Threading.Tasks;
 using UnityEngine;
 using Verse;
-using VFECore;
+using VEF;
+using VEF.Weapons;
 
 namespace RimEffect
 {

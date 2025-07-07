@@ -42,7 +42,7 @@
 				<texPath>Things/Building/Linked/PrefabBarricades/PrefabBarricadeBlueprint_Atlas</texPath>
 			</blueprintGraphicData>
 		</building>
-		<placingDraggableDimensions>1</placingDraggableDimensions>
+    <drawStyleCategory>Defenses</drawStyleCategory>
 		<stuffCategories>
 			<li>Metallic</li>
 		</stuffCategories>

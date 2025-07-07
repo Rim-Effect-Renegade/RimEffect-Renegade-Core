@@ -45,7 +45,7 @@
 		<castEdgeShadows>true</castEdgeShadows>
 		<fillPercent>1</fillPercent>
 		<coversFloor>true</coversFloor>
-		<placingDraggableDimensions>1</placingDraggableDimensions>
+		<drawStyleCategory>Walls</drawStyleCategory>
 		<tickerType>Never</tickerType>
 		<rotatable>false</rotatable>
 		<selectable>true</selectable>
@@ -158,7 +158,7 @@
 		<defName>RE_PrefabAutodoor</defName>
 		<label>prefab autodoor</label>
 		<description>Divides rooms. Powered operation allows people to move through the door without slowing down.</description>
-		<thingClass>VFECore.Building_AutoDoorLockable</thingClass>
+		<thingClass>VEF.Buildings.Building_AutoDoorLockable</thingClass>
 		<statBases>
 			<WorkToBuild>350</WorkToBuild>
 		</statBases>

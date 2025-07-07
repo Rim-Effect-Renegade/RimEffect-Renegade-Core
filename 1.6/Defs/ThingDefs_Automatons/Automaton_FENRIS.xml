@@ -127,4 +127,71 @@
 		<recipeIcon>Things/Pawn/FENRISmech/FENRISMech_east</recipeIcon>
 	</Asimov.AutomatonRecipeDef>
 
+	<RecipeDef>
+		<defName>RE_Make_FENRISMech</defName>
+		<label>make fenris mech</label>
+		<description>Make a fenris mech.</description>
+		<jobString>Making fenris mech.</jobString>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<workAmount>1000</workAmount>
+		<unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>45</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>RE_PrefabComponent</li>
+					</thingDefs>
+				</filter>
+				<count>6</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentSpacer</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Steel</li>
+				<li>Plasteel</li>
+				<li>RE_PrefabComponent</li>
+				<li>ComponentSpacer</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<recipeUsers>
+			<li>RE_ManufacturingBench</li>
+		</recipeUsers>
+		<products>
+			<RE_Mechanoids_FENRIS>1</RE_Mechanoids_FENRIS>
+		</products>
+		<skillRequirements>
+			<Crafting>6</Crafting>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+		<researchPrerequisites>
+			<li>RE_ColonyDefenseForce</li>
+		</researchPrerequisites>
+	</RecipeDef>
+
 </Defs>

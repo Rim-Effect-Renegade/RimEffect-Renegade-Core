@@ -9,6 +9,7 @@
 			<MoveSpeed>5.1</MoveSpeed>
 			<MarketValue>300</MarketValue>
 			<ComfyTemperatureMin>-25</ComfyTemperatureMin>
+			<Wildness>0.65</Wildness>
 		</statBases>
 		<uiIconScale>2</uiIconScale>
 		<tools>
@@ -61,7 +62,6 @@
 			<baseHungerRate>0.20</baseHungerRate>
 			<foodType>VegetarianRoughAnimal</foodType>
 			<leatherDef>Leather_Light</leatherDef>
-			<wildness>0.65</wildness>
 			<trainability>None</trainability>
 			<gestationPeriodDays>13</gestationPeriodDays>
 			<litterSizeCurve>
@@ -164,6 +164,7 @@
 			<MoveSpeed>5.0</MoveSpeed>
 			<MarketValue>600</MarketValue>
 			<ComfyTemperatureMin>-30</ComfyTemperatureMin>
+			<Wildness>0.60</Wildness>
 		</statBases>
 		<tools>
 			<li>
@@ -244,7 +245,6 @@
 			<gestationPeriodDays>20</gestationPeriodDays>
 			<nameOnTameChance>1</nameOnTameChance>
 			<trainability>Advanced</trainability>
-			<wildness>0.60</wildness>
 			<manhunterOnTameFailChance>0.5</manhunterOnTameFailChance>
 			<manhunterOnDamageChance>0.5</manhunterOnDamageChance>
 			<litterSizeCurve>
@@ -358,6 +358,7 @@
 			<MoveSpeed>3.2</MoveSpeed>
 			<ComfyTemperatureMin>-10</ComfyTemperatureMin>
 			<MarketValue>400</MarketValue>
+			<Wildness>0.1</Wildness>
 		</statBases>
 		<comps>
 			<li Class="CompProperties_Milkable">
@@ -417,7 +418,6 @@
 			<baseHealthScale>1.5</baseHealthScale>
 			<foodType>VegetarianRoughAnimal</foodType>
 			<leatherDef>Leather_Plain</leatherDef>
-			<wildness>0.1</wildness>
 			<trainability>Advanced</trainability>
 			<meatLabel>space beef</meatLabel>
 			<gestationPeriodDays>20</gestationPeriodDays>

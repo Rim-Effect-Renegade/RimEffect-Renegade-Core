@@ -1,6 +1,6 @@
 ﻿namespace RimEffect
 {
-    using VFECore.Abilities;
+    using VEF.Abilities;
 
     public class Hediff_OmniTool : Hediff_Abilities
     {

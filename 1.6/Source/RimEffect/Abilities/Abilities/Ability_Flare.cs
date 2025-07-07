@@ -4,7 +4,7 @@
     using RimWorld.Planet;
     using UnityEngine;
     using Verse;
-    using Ability = VFECore.Abilities.Ability;
+    using Ability = VEF.Abilities.Ability;
 
     public class Ability_Flare : Ability
     {

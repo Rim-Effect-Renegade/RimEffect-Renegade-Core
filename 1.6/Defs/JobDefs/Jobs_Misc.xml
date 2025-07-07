@@ -10,7 +10,7 @@
 
 	<JobDef>
 		<defName>RE_UseGalaxyMap</defName>
-		<driverClass>VanillaStorytellersExpanded.JobDriver_UseQuestGiver</driverClass>
+		<driverClass>VEF.Storyteller.JobDriver_UseQuestGiver</driverClass>
 		<reportString>using galaxy map.</reportString>
 		<allowOpportunisticPrefix>true</allowOpportunisticPrefix>
 	</JobDef>

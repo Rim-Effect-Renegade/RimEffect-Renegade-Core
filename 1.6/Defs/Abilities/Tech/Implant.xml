@@ -126,7 +126,7 @@
 		<defName>RE_OmniTool_CombatDrone</defName>
 		<label>omni tool (Combat drone)</label>
 		<comps>
-			<li Class="VFECore.Abilities.CompProperties_UseEffectGiveAbility">
+			<li Class="VEF.Abilities.CompProperties_UseEffectGiveAbility">
 				<ability>RE_Tech_CombatDrone</ability>
 			</li>
 		</comps>
@@ -137,7 +137,7 @@
 		<defName>RE_OmniTool_DefenseMatrix</defName>
 		<label>omni tool (Defense matrix)</label>
 		<comps>
-			<li Class="VFECore.Abilities.CompProperties_UseEffectGiveAbility">
+			<li Class="VEF.Abilities.CompProperties_UseEffectGiveAbility">
 				<ability>RE_Tech_DefenseMatrix</ability>
 			</li>
 		</comps>
@@ -148,7 +148,7 @@
 		<defName>RE_OmniTool_Sabotage</defName>
 		<label>omni tool (Sabotage)</label>
 		<comps>
-			<li Class="VFECore.Abilities.CompProperties_UseEffectGiveAbility">
+			<li Class="VEF.Abilities.CompProperties_UseEffectGiveAbility">
 				<ability>RE_Tech_Sabotage</ability>
 			</li>
 		</comps>
@@ -159,7 +159,7 @@
 		<defName>RE_OmniTool_TacticalCloak</defName>
 		<label>omni tool (Tactical cloak)</label>
 		<comps>
-			<li Class="VFECore.Abilities.CompProperties_UseEffectGiveAbility">
+			<li Class="VEF.Abilities.CompProperties_UseEffectGiveAbility">
 				<ability>RE_Tech_TacticalCloak</ability>
 			</li>
 		</comps>

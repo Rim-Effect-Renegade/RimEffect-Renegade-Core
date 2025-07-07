@@ -9,8 +9,6 @@ using UnityEngine;
 using Verse;
 using Verse.AI;
 using Verse.AI.Group;
-using VFE.Mechanoids;
-using VFE.Mechanoids.Needs;
 
 namespace RimEffect
 {
@@ -103,11 +101,9 @@ namespace RimEffect
 			var powerSources = map.listerThings.AllThings.Where(x => x.TryGetComp<CompPowerTransmitter>()?.Props?.transmitsPower ?? false);
 			for (var i = 0; i < mechCount; i++)
             {
-				var mechBase = ThingMaker.MakeThing(Rand.Bool ? RE_DefOf.RE_Mechanoids_LOKIBase : RE_DefOf.RE_Mechanoids_YMIRBase);
-				mechBase.SetFaction(Faction.OfMechanoids);
-				GenSpawn.Spawn(mechBase, rect.Cells.Where(x => x.Walkable(map) && !x.Roofed(map) && x.GetThingList(map).Count == 0 && powerSources.Where(y => y.Position.DistanceTo(x) < 5).Any()).RandomElement(), map);
-				var mech = mechBase.TryGetComp<CompMachineChargingStation>().myPawn;
-				mech.needs.TryGetNeed<Need_Power>().CurLevel = 1;
+				var mech = PawnGenerator.GeneratePawn(Rand.Bool ? RE_DefOf.RE_Mechanoids_LOKI : RE_DefOf.RE_Mechanoids_YMIR);
+                mech.SetFaction(Faction.OfMechanoids);
+				GenSpawn.Spawn(mech, rect.Cells.Where(x => x.Walkable(map) && !x.Roofed(map) && x.GetThingList(map).Count == 0 && powerSources.Where(y => y.Position.DistanceTo(x) < 5).Any()).RandomElement(), map);
 				mechs.Add(mech);
 			}
 			LordMaker.MakeNewLord(Faction.OfMechanoids, new LordJob_AssaultColony(Faction.OfMechanoids, false, false, false, false, false), map, mechs);

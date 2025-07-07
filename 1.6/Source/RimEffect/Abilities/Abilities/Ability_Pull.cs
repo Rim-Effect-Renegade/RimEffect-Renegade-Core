@@ -3,8 +3,8 @@
     using RimWorld;
     using RimWorld.Planet;
     using Verse;
-    using VFECore.Abilities;
-    using Ability = VFECore.Abilities.Ability;
+    using VEF.Abilities;
+    using Ability = VEF.Abilities.Ability;
 
     public class Ability_Pull : Ability
     {

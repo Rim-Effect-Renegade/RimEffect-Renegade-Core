@@ -2,7 +2,7 @@
 {
     using RimWorld;
     using Verse;
-    using VFECore.Abilities;
+    using VEF.Abilities;
 
     public class HediffComp_NaturalBiotic : HediffComp
     {

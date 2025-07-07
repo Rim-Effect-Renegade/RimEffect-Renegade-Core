@@ -167,7 +167,7 @@
 			</li>
 			<li Class="CompProperties_Flickable" />
 			<li Class="CompProperties_Breakdownable" />
-			<li Class="VanillaStorytellersExpanded.CompProperties_QuestGiver">
+			<li Class="VEF.Storyteller.CompProperties_QuestGiver">
 				<floatOptionLabel>View contracts</floatOptionLabel>
 				<jobToGive>RE_UseGalaxyMap</jobToGive>
 				<questGiver>RE_GalaxyMap_QuestGiver</questGiver>

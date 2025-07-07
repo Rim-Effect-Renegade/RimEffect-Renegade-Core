@@ -1,20 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-	<VanillaStorytellersExpanded.QuestGiverDef>
+	<VEF.Storyteller.QuestGiverDef>
 		<defName>RE_GalaxyMap_QuestGiver</defName>
-		<currency Class="VanillaStorytellersExpanded.GoodwillCurrency">
+		<currency Class="VEF.Storyteller.GoodwillCurrency">
 			<costToAcceptQuest>15</costToAcceptQuest>
 			<minimunGoodwillRequirement>0</minimunGoodwillRequirement>
 		</currency>
-		<workerClass>VanillaStorytellersExpanded.QuestWorker</workerClass>
-		<windowClass>VanillaStorytellersExpanded.Window_Contracts</windowClass>
+		<workerClass>VEF.Storyteller.QuestWorker</workerClass>
+		<windowClass>VEF.Storyteller.Window_Contracts</windowClass>
 		<windowTitleKey>VEF.AvailableContracts</windowTitleKey>
 		<generateOnce>true</generateOnce>
 		<hideGeneratedQuestsInVanilla>true</hideGeneratedQuestsInVanilla>
 		<maximumAvailableQuestCount>10</maximumAvailableQuestCount>
 		<onlyOneReward>true</onlyOneReward>
 		<resetEveryTick>3600000</resetEveryTick> <!-- every 1 year -->
-	</VanillaStorytellersExpanded.QuestGiverDef>
+	</VEF.Storyteller.QuestGiverDef>
 
 </Defs>

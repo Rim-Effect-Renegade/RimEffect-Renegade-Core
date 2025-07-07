@@ -15,7 +15,7 @@
 			<li>Losing this gene will make the colonist lose ALL biotic levels, though they will not forget the abilities they have already learned.</li>
 		</customEffectDescriptions>
 		<modExtensions>
-			<li Class="VanillaGenesExpanded.GeneExtension">
+			<li Class="VEF.Genes.GeneExtension">
 				<hediffsToBodyParts>
 					<li>
 						<hediff>RE_BioticNatural</hediff>
