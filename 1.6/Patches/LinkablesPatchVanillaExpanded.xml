@@ -10,7 +10,7 @@
 			<operations>
 
 				<li Class="PatchOperationAdd">
-					<xpath>/Defs/ThingDef[defName = "Bed_StoneSlab"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
+					<xpath>/Defs/ThingDef[@Name = "VFE_ChiseledBedBase"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
 					<value>
 						<li>RE_PrefabDresser</li>
 						<li>RE_PrefabEndTable</li>
@@ -22,7 +22,7 @@
 				</li>
 
 				<li Class="PatchOperationAdd">
-					<xpath>/Defs/ThingDef[defName = "Bed_Simple"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
+					<xpath>/Defs/ThingDef[@Name = "VFE_SimpleBedBase"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
 					<value>
 						<li>RE_PrefabDresser</li>
 						<li>RE_PrefabEndTable</li>
@@ -34,19 +34,7 @@
 				</li>
 
 				<li Class="PatchOperationAdd">
-					<xpath>/Defs/ThingDef[defName = "Bed_Ergonomic"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
-					<value>
-						<li>RE_PrefabDresser</li>
-						<li>RE_PrefabEndTable</li>
-						<li>RE_PrefabEndTableWithLamp</li>
-						<li>RE_PrefabBedsideTable</li>
-						<li>RE_PrefabBedsideTableLamp</li>
-						<li>RE_PrefabWardrobe</li>
-					</value>
-				</li>
-
-				<li Class="PatchOperationAdd">
-					<xpath>/Defs/ThingDef[defName = "Bed_DoubleErgonomic"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
+					<xpath>/Defs/ThingDef[@Name = "VFE_ErgonomicBedBase"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
 					<value>
 						<li>RE_PrefabDresser</li>
 						<li>RE_PrefabEndTable</li>
@@ -74,8 +62,7 @@
 					<value>
 						<li>Table_RoyalDresser</li>
 						<li>Table_RoyalEndTable</li>
-						<li>Table_Wardrobe</li>
-						<li>Table_LightEndTable</li>
+						<li>VFE_RoyalWardrobe</li>
 					</value>
 				</li>
 
@@ -136,19 +123,7 @@
 			<operations>
 
 				<li Class="PatchOperationAdd">
-					<xpath>/Defs/ThingDef[defName = "Bed_AdvBed"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
-					<value>
-						<li>RE_PrefabDresser</li>
-						<li>RE_PrefabEndTable</li>
-						<li>RE_PrefabEndTableWithLamp</li>
-						<li>RE_PrefabBedsideTable</li>
-						<li>RE_PrefabBedsideTableLamp</li>
-						<li>RE_PrefabWardrobe</li>
-					</value>
-				</li>
-
-				<li Class="PatchOperationAdd">
-					<xpath>/Defs/ThingDef[defName = "Bed_AdvDoubleBed"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
+					<xpath>/Defs/ThingDef[@Name = "VFES_AdvancedBedBase"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
 					<value>
 						<li>RE_PrefabDresser</li>
 						<li>RE_PrefabEndTable</li>
