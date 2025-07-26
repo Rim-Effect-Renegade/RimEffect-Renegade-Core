@@ -292,6 +292,7 @@
 					<li>RE_PrefabBedsideTable</li>
 					<li>RE_PrefabBedsideTableLamp</li>
 					<li>RE_PrefabWardrobe</li>
+					<li MayRequire="Ludeon.RimWorld.Ideology">SleepAccelerator</li>
 				</linkableFacilities>
 			</li>
 		</comps>
@@ -361,6 +362,7 @@
 					<li>RE_PrefabBedsideTable</li>
 					<li>RE_PrefabBedsideTableLamp</li>
 					<li>RE_PrefabWardrobe</li>
+					<li MayRequire="Ludeon.RimWorld.Ideology">SleepAccelerator</li>
 				</linkableFacilities>
 			</li>
 		</comps>
@@ -748,6 +750,7 @@
 					<li>RE_PrefabBedsideTable</li>
 					<li>RE_PrefabBedsideTableLamp</li>
 					<li>RE_PrefabWardrobe</li>
+					<li MayRequire="Ludeon.RimWorld.Ideology">SleepAccelerator</li>
 				</linkableFacilities>
 			</li>
 		</comps>
