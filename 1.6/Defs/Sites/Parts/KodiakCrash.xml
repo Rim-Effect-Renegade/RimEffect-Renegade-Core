@@ -15,6 +15,7 @@
 		<tags>
 			<li>RE_KodiakShuttleCrash</li>
 		</tags>
+		<gravShipsCanLandOn>true</gravShipsCanLandOn>
 	</SitePartDef>
 
 	<GenStepDef>
@@ -38,6 +39,7 @@
 		<tags>
 			<li>RE_WoundedSoldier</li>
 		</tags>
+		<gravShipsCanLandOn>true</gravShipsCanLandOn>
 	</SitePartDef>
 
 	<GenStepDef>
@@ -61,6 +63,7 @@
 		<tags>
 			<li>RE_DeadSoldier</li>
 		</tags>
+		<gravShipsCanLandOn>true</gravShipsCanLandOn>
 	</SitePartDef>
 
 	<GenStepDef>
@@ -84,6 +87,7 @@
 		<tags>
 			<li>RE_PirateOrMech</li>
 		</tags>
+		<gravShipsCanLandOn>true</gravShipsCanLandOn>
 	</SitePartDef>
 
 	<GenStepDef>

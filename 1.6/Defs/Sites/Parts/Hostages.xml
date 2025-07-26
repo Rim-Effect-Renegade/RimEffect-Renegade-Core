@@ -15,6 +15,7 @@
 		<tags>
 			<li>RE_HostagesSite</li>
 		</tags>
+		<gravShipsCanLandOn>true</gravShipsCanLandOn>
 	</SitePartDef>
 
 	<GenStepDef>

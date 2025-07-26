@@ -14,6 +14,7 @@
 		<tags>
 			<li>RE_RogueSite</li>
 		</tags>
+		<gravShipsCanLandOn>true</gravShipsCanLandOn>
 	</SitePartDef>
 
 	<GenStepDef>
