@@ -29,6 +29,7 @@
 			<Plasteel>100</Plasteel>
 			<ChunkSlagSteel>4</ChunkSlagSteel>
 			<ComponentSpacer>4</ComponentSpacer>
+			<ShuttleEngine MayRequire="Ludeon.RimWorld.Odyssey">1</ShuttleEngine>
 		</killedLeavings>
 		<rotatable>true</rotatable>
 		<defaultPlacingRot>West</defaultPlacingRot>
@@ -52,6 +53,7 @@
 		<costList>
 			<Plasteel>450</Plasteel>
 			<ComponentSpacer>24</ComponentSpacer>
+			<ShuttleEngine MayRequire="Ludeon.RimWorld.Odyssey">1</ShuttleEngine>
 		</costList>
 		<researchPrerequisites>
 			<li>RE_AllianceKodiak</li>
@@ -159,6 +161,9 @@
 		<building>
 			<claimable>false</claimable>
 			<destroySound>BuildingDestroyed_Metal_Big</destroySound>
+			<forcedCostLeavings>
+				<li MayRequire="Ludeon.RimWorld.Odyssey">ShuttleEngine</li>
+			</forcedCostLeavings>
 		</building>
 		<comps>
 			<li Class="CompProperties_AmbientSound">
