@@ -49,7 +49,7 @@ namespace RimEffect
             {
                 return;
             }
-            if (!this.parent.GetComp<CompBreakdownable>().BrokenDown)
+            if (this.parent.HasComp<CompBreakdownable>() && !this.parent.GetComp<CompBreakdownable>().BrokenDown)
             {
                 ticksActive = 0;
                 return;
@@ -111,11 +111,6 @@ namespace RimEffect
                 }
             }
         }
-
-
-
         private int ticksToPlantHarm;
-
-
     }
 }

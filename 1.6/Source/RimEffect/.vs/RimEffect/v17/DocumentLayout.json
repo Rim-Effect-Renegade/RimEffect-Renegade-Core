@@ -3,11 +3,27 @@
   "WorkspaceRootPath": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D0F7D475-3F29-4B72-9A62-6A679ED4AEA5}|RimEffect.csproj|f:\\rwmodcategories\\neronix17\\rimeffectbiotech\\rimeffect-core-biotech\\1.6\\source\\rimeffect\\floatmenuoptionprovider_freeprisoner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D0F7D475-3F29-4B72-9A62-6A679ED4AEA5}|RimEffect.csproj|f:\\rwmodcategories\\neronix17\\rimeffectbiotech\\rimeffect-core-biotech\\1.6\\source\\rimeffect\\comps\\comppowerplantzero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0F7D475-3F29-4B72-9A62-6A679ED4AEA5}|RimEffect.csproj|solutionrelative:comps\\comppowerplantzero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0F7D475-3F29-4B72-9A62-6A679ED4AEA5}|RimEffect.csproj|f:\\rwmodcategories\\neronix17\\rimeffectbiotech\\rimeffect-core-biotech\\1.6\\source\\rimeffect\\comps\\comppowerfusioncell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0F7D475-3F29-4B72-9A62-6A679ED4AEA5}|RimEffect.csproj|solutionrelative:comps\\comppowerfusioncell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0F7D475-3F29-4B72-9A62-6A679ED4AEA5}|RimEffect.csproj|f:\\rwmodcategories\\neronix17\\rimeffectbiotech\\rimeffect-core-biotech\\1.6\\source\\rimeffect\\comps\\comppowerplantnuclear.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0F7D475-3F29-4B72-9A62-6A679ED4AEA5}|RimEffect.csproj|solutionrelative:comps\\comppowerplantnuclear.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0F7D475-3F29-4B72-9A62-6A679ED4AEA5}|RimEffect.csproj|f:\\rwmodcategories\\neronix17\\rimeffectbiotech\\rimeffect-core-biotech\\1.6\\source\\rimeffect\\comps\\compplantharmradiusifbroken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0F7D475-3F29-4B72-9A62-6A679ED4AEA5}|RimEffect.csproj|solutionrelative:comps\\compplantharmradiusifbroken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0F7D475-3F29-4B72-9A62-6A679ED4AEA5}|RimEffect.csproj|F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\floatmenuoptionprovider_freeprisoner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D0F7D475-3F29-4B72-9A62-6A679ED4AEA5}|RimEffect.csproj|solutionrelative:floatmenuoptionprovider_freeprisoner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D0F7D475-3F29-4B72-9A62-6A679ED4AEA5}|RimEffect.csproj|f:\\rwmodcategories\\neronix17\\rimeffectbiotech\\rimeffect-core-biotech\\1.6\\source\\rimeffect\\harmony\\patch_floatmenumakermap_addhumanlikeorders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D0F7D475-3F29-4B72-9A62-6A679ED4AEA5}|RimEffect.csproj|F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\harmony\\patch_floatmenumakermap_addhumanlikeorders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D0F7D475-3F29-4B72-9A62-6A679ED4AEA5}|RimEffect.csproj|solutionrelative:harmony\\patch_floatmenumakermap_addhumanlikeorders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -23,6 +39,58 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "CompPowerFusionCell.cs",
+              "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\Comps\\CompPowerFusionCell.cs",
+              "RelativeDocumentMoniker": "Comps\\CompPowerFusionCell.cs",
+              "ToolTip": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\Comps\\CompPowerFusionCell.cs",
+              "RelativeToolTip": "Comps\\CompPowerFusionCell.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-17T21:04:00.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CompPowerPlantZero.cs",
+              "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\Comps\\CompPowerPlantZero.cs",
+              "RelativeDocumentMoniker": "Comps\\CompPowerPlantZero.cs",
+              "ToolTip": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\Comps\\CompPowerPlantZero.cs",
+              "RelativeToolTip": "Comps\\CompPowerPlantZero.cs",
+              "ViewState": "AgIAAOsAAAAAAAAAAAAAAAYBAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-17T20:53:06.51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CompPlantHarmRadiusIfBroken.cs",
+              "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\Comps\\CompPlantHarmRadiusIfBroken.cs",
+              "RelativeDocumentMoniker": "Comps\\CompPlantHarmRadiusIfBroken.cs",
+              "ToolTip": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\Comps\\CompPlantHarmRadiusIfBroken.cs",
+              "RelativeToolTip": "Comps\\CompPlantHarmRadiusIfBroken.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAwwHEAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-17T20:52:33.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CompPowerPlantNuclear.cs",
+              "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\Comps\\CompPowerPlantNuclear.cs",
+              "RelativeDocumentMoniker": "Comps\\CompPowerPlantNuclear.cs",
+              "ToolTip": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\Comps\\CompPowerPlantNuclear.cs",
+              "RelativeToolTip": "Comps\\CompPowerPlantNuclear.cs",
+              "ViewState": "AgIAANEAAAAAAAAAAAAuwNkAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-17T20:38:32.024Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Patch_FloatMenuMakerMap_AddHumanlikeOrders.cs",
               "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\Harmony\\Patch_FloatMenuMakerMap_AddHumanlikeOrders.cs",
               "RelativeDocumentMoniker": "Harmony\\Patch_FloatMenuMakerMap_AddHumanlikeOrders.cs",
@@ -30,21 +98,19 @@
               "RelativeToolTip": "Harmony\\Patch_FloatMenuMakerMap_AddHumanlikeOrders.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABoAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-07T17:23:38.13Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-07T17:23:38.13Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "FloatMenuOptionProvider_FreePrisoner.cs",
               "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\FloatMenuOptionProvider_FreePrisoner.cs",
               "RelativeDocumentMoniker": "FloatMenuOptionProvider_FreePrisoner.cs",
               "ToolTip": "F:\\RWModCategories\\Neronix17\\RimEffectBiotech\\RimEffect-Core-Biotech\\1.6\\Source\\RimEffect\\FloatMenuOptionProvider_FreePrisoner.cs",
               "RelativeToolTip": "FloatMenuOptionProvider_FreePrisoner.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAA1wBcAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAxwBcAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-07T17:22:03.434Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-07T17:22:03.434Z"
             }
           ]
         }

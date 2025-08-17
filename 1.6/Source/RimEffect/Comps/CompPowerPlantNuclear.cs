@@ -51,14 +51,14 @@ namespace RimEffect
             get
             {
 
-                if (this.breakdownableComp.BrokenDown && signalMeltdown)
+                if (breakdownableComp != null && this.breakdownableComp.BrokenDown && signalMeltdown)
                 {
 
                     radiationRadius = radiationRadiusBase * 7;
                     tickRadiation = (int)Math.Round(tickRadiationBase) / 3;
                     return 0f;
                 }
-                if (this.breakdownableComp.BrokenDown && !signalMeltdown)
+                if (breakdownableComp != null && this.breakdownableComp.BrokenDown && !signalMeltdown)
                 {
 
                     radiationRadius = 0;
@@ -127,8 +127,6 @@ namespace RimEffect
         {
             base.CompTick();
 
-
-
             this.UpdateDesiredPowerOutput();
 
             if (!onlyBreakOnceDuringSolarFlare)
@@ -143,7 +141,6 @@ namespace RimEffect
             {
                 onlyBreakOnceDuringSolarFlare = false;
             }
-
 
             Room room = this.parent.PositionHeld.GetRoom(this.parent.Map);
             if (room != null)
@@ -169,7 +166,6 @@ namespace RimEffect
                     }
                 }
 
-
                 float result;
                 GenTemperature.TryGetTemperatureForCell(this.parent.Position, this.parent.Map, out result);
                 temperatureRightNow = (int)Math.Round(result);
@@ -184,16 +180,11 @@ namespace RimEffect
                     links.Add(ThingDef.Named("RE_FusionReactor"));
                     Find.LetterStack.ReceiveLetter("RE_MeltdownLetterLabel".Translate(), "RE_MeltdownLetter".Translate(), LetterDefOf.NegativeEvent, this.parent, null, null, links, null);
                 }
-
             }
-
-
-
         }
 
         public void AffectCell(IntVec3 c)
         {
-
             if (c.InBounds(this.parent.Map))
             {
                 HashSet<Thing> hashSet = new HashSet<Thing>(c.GetThingList(this.parent.Map));
@@ -212,19 +203,11 @@ namespace RimEffect
 
                     }
                 }
-
-
-
-
-
-
-
             }
         }
 
         public void UpdateDesiredPowerOutput()
         {
-
             base.PowerOutput = this.DesiredPowerOutputAndRadius;
         }
 
@@ -233,19 +216,16 @@ namespace RimEffect
             StringBuilder stringBuilder = new StringBuilder();
             stringBuilder.Append(base.CompInspectStringExtra());
             stringBuilder.AppendLine();
-
-
             if (noReactorRoom)
             {
                 stringBuilder.Append("RE_NoReactorRoom".Translate());
-                if (this.parent.GetComp<CompBreakdownable>().BrokenDown && signalMeltdown)
+                if (breakdownableComp != null && breakdownableComp.BrokenDown && signalMeltdown)
                 {
                     stringBuilder.AppendLine();
                     CompPlantHarmRadiusIfBroken comp = this.parent.GetComp<CompPlantHarmRadiusIfBroken>();
                     stringBuilder.Append("RE_Meltdown".Translate() + ": " + comp.CurrentRadius.ToString("0.0") + " meters");
                 }
                 return stringBuilder.ToString();
-
             }
             else
             {
@@ -260,22 +240,15 @@ namespace RimEffect
                     stringBuilder.AppendLine();
 
                     stringBuilder.Append("RE_RadiationProduced".Translate((int)Math.Round(this.radiationRadius)));
-
                 }
-                if (this.parent.GetComp<CompBreakdownable>().BrokenDown && signalMeltdown)
+                if (breakdownableComp != null && breakdownableComp.BrokenDown && signalMeltdown)
                 {
                     stringBuilder.AppendLine();
                     CompPlantHarmRadiusIfBroken comp = this.parent.GetComp<CompPlantHarmRadiusIfBroken>();
                     stringBuilder.Append("RE_Meltdown".Translate() + ": " + comp.CurrentRadius.ToString("0.0") + " meters");
                 }
-
                 return stringBuilder.ToString();
-
             }
-
-
         }
-
-
     }
 }

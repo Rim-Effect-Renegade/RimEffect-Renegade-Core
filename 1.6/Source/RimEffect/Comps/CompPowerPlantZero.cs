@@ -51,14 +51,14 @@ namespace RimEffect
             get
             {
 
-                if (this.breakdownableComp.BrokenDown && signalMeltdown)
+                if (this.breakdownableComp != null && this.breakdownableComp.BrokenDown && signalMeltdown)
                 {
 
                     radiationRadius = radiationRadiusBase * 7;
                     tickRadiation = (int)Math.Round(tickRadiationBase) / 3;
                     return 0f;
                 }
-                if (this.breakdownableComp.BrokenDown && !signalMeltdown)
+                if (this.breakdownableComp != null && this.breakdownableComp.BrokenDown && !signalMeltdown)
                 {
 
                     radiationRadius = 0;
@@ -135,7 +135,10 @@ namespace RimEffect
             {
                 if (this.parent.Map.gameConditionManager.ElectricityDisabled(parent.Map))
                 {
-                    this.breakdownableComp.DoBreakdown();
+                    if(this.breakdownableComp != null)
+                    {
+                        this.breakdownableComp.DoBreakdown();
+                    }
                     onlyBreakOnceDuringSolarFlare = true;
                 }
             }
@@ -168,40 +171,34 @@ namespace RimEffect
                         }
                     }
                 }
-
-
                 float result;
                 GenTemperature.TryGetTemperatureForCell(this.parent.Position, this.parent.Map, out result);
                 temperatureRightNow = (int)Math.Round(result);
                 if ((temperatureRightNow > criticalTemp) && !signalMeltdown)
                 {
-                    signalMeltdown = true;                  
-                    this.breakdownableComp.DoBreakdown();
-                    this.refuelableComp.ConsumeFuel(refuelableComp.Fuel);
+                    signalMeltdown = true;
+                    if(breakdownableComp != null)
+                    {
+                        breakdownableComp.DoBreakdown();
+                    }
+                    refuelableComp.ConsumeFuel(refuelableComp.Fuel);
                     List<ThingDef> links = new List<ThingDef>();
                     links.Add(ThingDef.Named("RE_ElementZeroReactor"));
                     Find.LetterStack.ReceiveLetter("RE_MeltdownLetterLabelEezo".Translate(), "RE_MeltdownLetterEezo".Translate(), LetterDefOf.NegativeEvent, this.parent, null, null, links, null);
                     /*GameCondition gameCondition = GameConditionMaker.MakeCondition(GameConditionDefOf.PsychicDrone, -1);
-                    gameCondition.Duration = 120000;                  
+                    gameCondition.Duration = 120000;
                     gameCondition.conditionCauser = this.parent;
                     parent.Map.gameConditionManager.RegisterCondition(gameCondition);*/
                     IncidentDef localDef = IncidentDef.Named("PsychicDrone");
                    
                     IncidentParms parms = StorytellerUtility.DefaultParmsNow(localDef.category, parent.Map);
                     localDef.Worker.TryExecute(parms);
-
-
                 }
-
             }
-
-
-
         }
 
         public void AffectCell(IntVec3 c)
         {
-
             if (c.InBounds(this.parent.Map))
             {
                 HashSet<Thing> hashSet = new HashSet<Thing>(c.GetThingList(this.parent.Map));
@@ -222,19 +219,11 @@ namespace RimEffect
                         }
                     }
                 }
-
-
-
-
-
-
-
             }
         }
 
         public void UpdateDesiredPowerOutput()
         {
-
             base.PowerOutput = this.DesiredPowerOutputAndRadius;
         }
 
@@ -244,18 +233,16 @@ namespace RimEffect
             stringBuilder.Append(base.CompInspectStringExtra());
             stringBuilder.AppendLine();
 
-
             if (noReactorRoom)
             {
                 stringBuilder.Append("RE_NoReactorRoomEezo".Translate());
-                if (this.parent.GetComp<CompBreakdownable>().BrokenDown && signalMeltdown)
+                if (breakdownableComp != null && breakdownableComp.BrokenDown && signalMeltdown)
                 {
                     stringBuilder.AppendLine();
                     CompPlantHarmRadiusIfBroken comp = this.parent.GetComp<CompPlantHarmRadiusIfBroken>();
                     stringBuilder.Append("RE_MeltdownEezo".Translate());
                 }
                 return stringBuilder.ToString();
-
             }
             else
             {
@@ -270,17 +257,14 @@ namespace RimEffect
                     stringBuilder.AppendLine();
 
                     stringBuilder.Append("RE_RadiationProducedEezo".Translate((int)Math.Round(this.radiationRadius)));
-
                 }
-                if (this.parent.GetComp<CompBreakdownable>().BrokenDown && signalMeltdown)
+                if (breakdownableComp != null && breakdownableComp.BrokenDown && signalMeltdown)
                 {
                     stringBuilder.AppendLine();
                   
                     stringBuilder.Append("RE_MeltdownEezo".Translate());
                 }
-
                 return stringBuilder.ToString();
-
             }
 
 
