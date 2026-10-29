@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+	<RecipeDef Name="OuterRim_DroidDisassemblyRecipe">
+		<defName>RE_DisassembleMech</defName>
+		<label>disassemble mech</label>
+		<description>Disassemble a dead mech into its component parts.</description>
+		<jobString>Disassembling mech.</jobString>
+		<workAmount>300</workAmount>
+		<workSpeedStat>ButcheryMechanoidSpeed</workSpeedStat>
+		<workSkill>Crafting</workSkill>
+		<efficiencyStat>ButcheryMechanoidEfficiency</efficiencyStat>
+		<effectWorking>ButcherMechanoid</effectWorking>
+		<soundWorking>Recipe_ButcherCorpseMechanoid</soundWorking>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Corpses</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<specialProducts>
+			<li>Butchery</li>
+		</specialProducts>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Corpse_RE_Mechanoids_FENRIS</li>
+				<li>Corpse_RE_Mechanoids_LOKI</li>
+				<li>Corpse_RE_Mechanoids_YMIR</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+</Defs>

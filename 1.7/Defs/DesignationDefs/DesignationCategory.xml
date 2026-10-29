@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<DesignationCategoryDef>
+		<defName>RE_ArchitectPrefab</defName>
+		<label>Prefab</label>
+		<order>500</order>
+		<specialDesignatorClasses>
+			<li>Designator_Cancel</li>
+			<li>Designator_Deconstruct</li>
+			<li>TabulaRasa.Designator_SubCategory</li>
+		</specialDesignatorClasses>
+	</DesignationCategoryDef>
+
+	<TabulaRasa.DesignatorSubCategoryDef>
+		<defName>RE_SubCatStructural</defName>
+		<label>Structural</label>
+		<designationCategory>RE_ArchitectPrefab</designationCategory>
+	</TabulaRasa.DesignatorSubCategoryDef>
+
+	<TabulaRasa.DesignatorSubCategoryDef>
+		<defName>RE_SubCatPower</defName>
+		<label>Power</label>
+		<designationCategory>RE_ArchitectPrefab</designationCategory>
+	</TabulaRasa.DesignatorSubCategoryDef>
+
+	<TabulaRasa.DesignatorSubCategoryDef>
+		<defName>RE_SubCatProduction</defName>
+		<label>Production</label>
+		<designationCategory>RE_ArchitectPrefab</designationCategory>
+	</TabulaRasa.DesignatorSubCategoryDef>
+
+	<TabulaRasa.DesignatorSubCategoryDef>
+		<defName>RE_SubCatRecreation</defName>
+		<label>Recreation</label>
+		<designationCategory>RE_ArchitectPrefab</designationCategory>
+	</TabulaRasa.DesignatorSubCategoryDef>
+
+	<TabulaRasa.DesignatorSubCategoryDef>
+		<defName>RE_SubCatTemperature</defName>
+		<label>Temperature</label>
+		<designationCategory>RE_ArchitectPrefab</designationCategory>
+	</TabulaRasa.DesignatorSubCategoryDef>
+
+	<TabulaRasa.DesignatorSubCategoryDef>
+		<defName>RE_SubCatFurniture</defName>
+		<label>Furniture</label>
+		<designationCategory>RE_ArchitectPrefab</designationCategory>
+	</TabulaRasa.DesignatorSubCategoryDef>
+
+	<TabulaRasa.DesignatorSubCategoryDef>
+		<defName>RE_SubCatDecor</defName>
+		<label>Decor</label>
+		<designationCategory>RE_ArchitectPrefab</designationCategory>
+	</TabulaRasa.DesignatorSubCategoryDef>
+
+	<TabulaRasa.DesignatorSubCategoryDef>
+		<defName>RE_SubCatSecurity</defName>
+		<label>Security</label>
+		<designationCategory>RE_ArchitectPrefab</designationCategory>
+	</TabulaRasa.DesignatorSubCategoryDef>
+
+	<TabulaRasa.DesignatorSubCategoryDef>
+		<defName>RE_SubCatMisc</defName>
+		<label>Misc</label>
+		<designationCategory>RE_ArchitectPrefab</designationCategory>
+	</TabulaRasa.DesignatorSubCategoryDef>
+
+</Defs>

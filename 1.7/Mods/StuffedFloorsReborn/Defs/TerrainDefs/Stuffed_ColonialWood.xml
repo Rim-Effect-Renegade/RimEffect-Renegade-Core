@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<StuffedFloors.FloorTypeDef ParentName="StuffedFloorsWoodBasicBase">
+		<defName>RE_ColonialWoodTileStuffed</defName>
+		<label>colonial wood floor</label>
+		<description>Wood plank flooring for that warm, homey feeling. While it is quick to lay, it is also very flammable.</description>
+		<texturePath>Terrain/Surfaces/ColonialWoodTile</texturePath>
+		<obsoletes>
+			<li>RE_ColonialWoodTile</li>
+		</obsoletes>
+		<researchPrerequisites>
+			<li>RE_BasicPrefabrication</li>
+		</researchPrerequisites>
+	</StuffedFloors.FloorTypeDef>
+	
+</Defs>
